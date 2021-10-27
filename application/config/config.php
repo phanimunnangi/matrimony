@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'https://siripromoters.com/matrimonywebportal/';
+$config['base_url'] = 'https://siripromoters.com/matrimony/';
 
 /*
 |--------------------------------------------------------------------------
