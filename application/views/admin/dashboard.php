@@ -3,7 +3,7 @@
 	   <div class="col-lg-12">
 		  <div class="ibox float-e-margins">
 			 <div class="ibox-title">
-				<h2><b>Welcome to nayeebrahmin Matrimony Admin.</b></h2>
+				<h2><b>Welcome to Brahmana Swayamvaram Matrimony Admin.</b></h2>
 			 </div>
 			 
 		  </div>

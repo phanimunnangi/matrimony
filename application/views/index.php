@@ -6,7 +6,7 @@
 				<div class="carousel-item active">
 					<img src="<?php echo base_url(); ?>assets/images/slider/slide-img1.jpg" alt="Image" class="d-block w-100">
 					<div class="carousel-caption d-none d-lg-block">
-						<h2 class="text-weight-semi-bold">Nayeebrahmin</h2>
+						<h2 class="text-weight-semi-bold">Brahmana Swayamvaram</h2>
         				<h2 class="text-weight-light">Free Matrimony Services</h2>
 					</div>
 				</div>
@@ -15,7 +15,7 @@
 				<div class="carousel-item">
 					<img src="<?php echo base_url(); ?>assets/images/slider/slide-img2.jpg" alt="Image" class="d-block w-100">
 					<div class="carousel-caption d-none d-lg-block">
-						<h2 class="text-weight-semi-bold">Exclusively For Nayeebrahmins</h2>
+						<h2 class="text-weight-semi-bold">Exclusively For Brahmana Swayamvarams</h2>
         				<h2 class="text-weight-light">Matrimony & Community Portal</h2>
 					</div>
 				</div>

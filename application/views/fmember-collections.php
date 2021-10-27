@@ -5,7 +5,7 @@
         <!-- Banner Image Ends -->
         <!-- Nested Container Starts -->
             <div class="container px-md-0 text-white text-center d-none d-md-block">
-                <h2 class="text-weight-semi-bold">Nayeebrahmin</h2>
+                <h2 class="text-weight-semi-bold">Brahmana Swayamvaram</h2>
         		<h2 class="text-weight-light">Free Matrimony Services</h2>
 				<h2 class="text-weight-light">Member Registration Form</h2>
             </div>

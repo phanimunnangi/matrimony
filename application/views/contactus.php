@@ -49,7 +49,7 @@
                         <!-- Phone No Ends -->
                         <!-- Email ID Starts -->
                             <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-envelope mr-2 pt-lg-3"></i> Email ID :</h4>
-                            <p class="text-big-2 text-weight-semi-bold lh-1 pl-3 ml-lg-3"><a href="mailto:nayeebrahmincommunity@gmail.com" class="text-color-black-1 animation">nayeebrahmincommunity@gmail.com</a></p>
+                            <p class="text-big-2 text-weight-semi-bold lh-1 pl-3 ml-lg-3"><a href="mailto:Brahmana Swayamvaramcommunity@gmail.com" class="text-color-black-1 animation">Brahmana Swayamvaramcommunity@gmail.com</a></p>
                         <!-- Email ID Ends -->
                         <!-- Whatsapp No Starts -->
                             <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-whatsapp mr-2 pt-lg-3"></i> Whatsapp No :</h4>

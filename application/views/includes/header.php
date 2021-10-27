@@ -39,7 +39,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>Nayee Brahamana Vivaha Parichaya Vedika <?php echo $page_title; ?></title>
+		<title>Brahmana Swayamvaram Vivaha Parichaya Vedika <?php echo $page_title; ?></title>
 		<!-- Bootstrap -->
 		<link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -99,7 +99,7 @@
 			<div class="container px-md-0 text-center clearfix">
 			<!-- Logo Starts -->
 				<div class="logo float-sm-left mb-3 mb-sm-0">
-					<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Matrimony APP" class="img-fluid"></a>
+					<a href="<?php echo base_url(); ?>"><h4 class="text-warning">Brahmana</h4><h5 class="text-success">Swayamvaram</h5></a>
 				</div>
 			<!-- Logo Ends -->
 			<!-- Button Starts -->				 
