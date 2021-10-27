@@ -1,0 +1,259 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-09-19 02:42:06 --> 404 Page Not Found: admin/Settings/categories_list
+ERROR - 2020-09-19 02:42:09 --> 404 Page Not Found: admin//index
+ERROR - 2020-09-19 02:42:11 --> 404 Page Not Found: admin//index
+ERROR - 2020-09-19 02:43:09 --> 404 Page Not Found: admin/Skin-confightml/index
+ERROR - 2020-09-19 02:44:43 --> 404 Page Not Found: admin/Skin-confightml/index
+ERROR - 2020-09-19 02:45:04 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:46:09 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:48:10 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:49:28 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:50:11 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:51:32 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:51:43 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:51:54 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:51:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:51:58 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 02:51:59 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:10:23 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:22:17 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:23:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:23:41 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:29:24 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:29:26 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\matrimonyapp\application\views\admin\raasilist.php 39
+ERROR - 2020-09-19 03:29:26 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:30:12 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\matrimonyapp\application\views\admin\raasilist.php 39
+ERROR - 2020-09-19 03:30:12 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:31:20 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\matrimonyapp\application\views\admin\raasilist.php 39
+ERROR - 2020-09-19 03:31:21 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:31:51 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\matrimonyapp\application\views\admin\raasilist.php 39
+ERROR - 2020-09-19 03:31:51 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:32:51 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:33:30 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:33:35 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:33:36 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:33:38 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:33:40 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:33:41 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:36:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:36:42 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:36:44 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:38:16 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:47:53 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:48:38 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:48:49 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:49:40 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 03:49:44 --> 404 Page Not Found: admin/Settings/addsubcaste
+ERROR - 2020-09-19 03:50:16 --> 404 Page Not Found: admin/Settings/addsubcaste
+ERROR - 2020-09-19 03:50:18 --> 404 Page Not Found: admin/Settings/addsubcaste
+ERROR - 2020-09-19 03:57:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:02:46 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:03:17 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:04:07 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:12:09 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:12:10 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:12:13 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:14:22 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:15:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:15:58 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:16:19 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:17:01 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:17:05 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:22:02 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:25:28 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:25:46 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:25:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:25:58 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:26:01 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:26:35 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:26:38 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:26:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:27:22 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:27:33 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:30:29 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:30:41 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:30:44 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:32:16 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:32:33 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:32:34 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:42:54 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:42:58 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:43:01 --> Query error: Unknown column 'Kamsali' in 'where clause' - Invalid query: SELECT *
+FROM `ma_community_subcastes`
+WHERE `Kamsali` = 'subcastename'
+AND `communityid` = '1'
+AND `Kamsali` != '2'
+ERROR - 2020-09-19 04:43:01 --> Severity: error --> Exception: Call to a member function row() on boolean D:\xampp\htdocs\matrimonyapp\application\models\admin\Common_model.php 55
+ERROR - 2020-09-19 04:44:20 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:44:57 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:45:02 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:45:06 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:45:16 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:50:59 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:51:01 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:51:04 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:51:05 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:51:13 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:51:18 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:52:12 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:52:16 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:52:20 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:52:31 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 04:52:38 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 05:01:17 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 05:39:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 05:40:00 --> Query error: Unknown column 'SUBCASTE2002' in 'field list' - Invalid query: UPDATE `ma_community_subcastes` SET `SUBCASTE2002` = ''
+WHERE `subcastestatus` = '0'
+ERROR - 2020-09-19 05:40:45 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 05:44:44 --> Severity: error --> Exception: Too few arguments to function Settings::status_actions(), 4 passed in D:\xampp\htdocs\matrimonyapp\system\core\CodeIgniter.php on line 532 and exactly 5 expected D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 258
+ERROR - 2020-09-19 05:48:57 --> Severity: error --> Exception: syntax error, unexpected '=', expecting ')' D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 266
+ERROR - 2020-09-19 05:49:07 --> Severity: error --> Exception: syntax error, unexpected '=', expecting ')' D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 266
+ERROR - 2020-09-19 05:52:38 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 05:52:57 --> Severity: error --> Exception: Too few arguments to function Settings::status_actions(), 5 passed in D:\xampp\htdocs\matrimonyapp\system\core\CodeIgniter.php on line 532 and exactly 6 expected D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 258
+ERROR - 2020-09-19 05:54:09 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 05:54:44 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:13:48 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:13:50 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:13:53 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:45:01 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:45:07 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:45:08 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\matrimonyapp\application\views\admin\professionslist.php 38
+ERROR - 2020-09-19 06:45:08 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:45:11 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 06:52:59 --> 404 Page Not Found: admin//index
+ERROR - 2020-09-19 07:08:15 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:08:19 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\matrimonyapp\application\views\admin\professionslist.php 38
+ERROR - 2020-09-19 07:08:19 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:09:39 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\matrimonyapp\application\views\admin\professionslist.php 38
+ERROR - 2020-09-19 07:09:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:10:18 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:10:28 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:10:31 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:22:02 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:22:15 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:22:17 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:22:19 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:24:36 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:24:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:25:21 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:25:22 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:25:23 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:26:11 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:26:12 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:26:13 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:26:13 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:26:14 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:26:14 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:27:15 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:27:45 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:28:05 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:28:18 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:28:54 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:28:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:30:28 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:39:30 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:39:36 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:39:55 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:39:55 --> 404 Page Not Found: admin/Settings/successstorieslist
+ERROR - 2020-09-19 07:40:00 --> 404 Page Not Found: admin/Settings/successstorieslist
+ERROR - 2020-09-19 07:44:59 --> 404 Page Not Found: admin/Settings/successstorieslist
+ERROR - 2020-09-19 07:53:56 --> Severity: Compile Error --> Cannot redeclare Settings::editprofession() D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 421
+ERROR - 2020-09-19 07:53:58 --> Severity: Compile Error --> Cannot redeclare Settings::editprofession() D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 421
+ERROR - 2020-09-19 07:54:03 --> Severity: Compile Error --> Cannot redeclare Settings::editprofession() D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 421
+ERROR - 2020-09-19 07:55:25 --> Severity: Compile Error --> Cannot redeclare Settings::editprofession() D:\xampp\htdocs\matrimonyapp\application\controllers\admin\Settings.php 421
+ERROR - 2020-09-19 07:56:22 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:56:26 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:56:29 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:56:30 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:56:45 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:56:47 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:57:37 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 07:58:37 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:01:19 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:01:23 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:13:25 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:13:35 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:13:49 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:14:05 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:17:13 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:17:42 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:17:45 --> 404 Page Not Found: admin/Settings/editsuccessstory
+ERROR - 2020-09-19 08:19:24 --> 404 Page Not Found: admin/Settings/editsuccessstory
+ERROR - 2020-09-19 08:20:14 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:21:40 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:21:44 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:21:49 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 08:22:14 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 10:35:00 --> 404 Page Not Found: admin//index
+ERROR - 2020-09-19 10:36:55 --> 404 Page Not Found: admin/Skin-confightml/index
+ERROR - 2020-09-19 10:37:06 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 10:37:12 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 10:37:14 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 10:39:59 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 11:20:36 --> 404 Page Not Found: admin//index
+ERROR - 2020-09-19 11:20:46 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:15:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:16:19 --> 404 Page Not Found: admin/Skin-confightml/index
+ERROR - 2020-09-19 12:16:27 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:16:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:17:15 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:17:16 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:17:16 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:17:17 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:17:17 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:17:18 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:17:57 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:18:46 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:18:56 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:19:22 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:19:32 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:19:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:19:53 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:20:18 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:20:32 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:20:36 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:20:47 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:17 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:23 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:25 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:32 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:34 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:38 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:41 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:43 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:50 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:52 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:54 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 12:22:58 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 15:00:37 --> 404 Page Not Found: admin/Skin-confightml/index
+ERROR - 2020-09-19 15:01:41 --> 404 Page Not Found: admin/Settings/serviceslist
+ERROR - 2020-09-19 15:02:10 --> 404 Page Not Found: admin/Settings/serviceslist
+ERROR - 2020-09-19 15:31:04 --> 404 Page Not Found: admin/Settings/serviceslist
+ERROR - 2020-09-19 15:31:18 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:31:40 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:31:42 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:32:12 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:32:14 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:32:15 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:32:20 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:41:04 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:42:32 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:42:33 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:42:33 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:42:33 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:42:38 --> 404 Page Not Found: Admin_assets/js
+ERROR - 2020-09-19 15:42:38 --> 404 Page Not Found: Admin_assets/css
+ERROR - 2020-09-19 15:43:03 --> 404 Page Not Found: Admin_assets/css
+ERROR - 2020-09-19 15:43:03 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:43:03 --> 404 Page Not Found: Admin_assets/js
+ERROR - 2020-09-19 15:43:16 --> 404 Page Not Found: Admin_assets/css
+ERROR - 2020-09-19 15:43:16 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:43:16 --> 404 Page Not Found: Admin_assets/js
+ERROR - 2020-09-19 15:43:37 --> 404 Page Not Found: Admin_assets/css
+ERROR - 2020-09-19 15:43:37 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:43:37 --> 404 Page Not Found: Admin_assets/js
+ERROR - 2020-09-19 15:46:09 --> 404 Page Not Found: admin/Common/skin-config.html
+ERROR - 2020-09-19 15:46:39 --> 404 Page Not Found: admin/Settings/skin-config.html
+ERROR - 2020-09-19 15:46:44 --> 404 Page Not Found: admin/Common/skin-config.html

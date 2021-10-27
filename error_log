@@ -1,0 +1,88 @@
+[19-Jul-2019 03:36:32 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:37:04 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:38:18 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:40:34 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:42:23 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:42:26 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:42:41 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:43:00 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:43:07 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:43:13 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[19-Jul-2019 03:45:17 Europe/London] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/t3yudqcbloi1/public_html/vcforudashboard/application/controllers/admin/Settings.php on line 59
+[23-Oct-2020 22:13:19 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[23-Oct-2020 22:13:23 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[23-Oct-2020 22:13:29 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[23-Oct-2020 22:13:35 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[24-Oct-2020 02:50:53 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[24-Oct-2020 03:17:23 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[24-Oct-2020 03:18:37 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[24-Oct-2020 03:19:56 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[24-Oct-2020 12:24:17 Europe/London] PHP Parse error:  syntax error, unexpected '!' in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 538
+[24-Oct-2020 12:24:20 Europe/London] PHP Parse error:  syntax error, unexpected '!' in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 538
+[24-Oct-2020 12:24:34 Europe/London] PHP Parse error:  syntax error, unexpected '!' in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 538
+[24-Oct-2020 12:24:58 Europe/London] PHP Parse error:  syntax error, unexpected '!' in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 538
+[24-Oct-2020 12:25:15 Europe/London] PHP Parse error:  syntax error, unexpected '!' in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 538
+[24-Oct-2020 12:50:13 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 288
+[24-Oct-2020 14:15:15 Europe/London] PHP Fatal error:  Call to undefined method Common_model::getSubscribeDetails() in /home2/matrimonyapp/public_html/demo/application/controllers/User.php on line 14
+[24-Oct-2020 14:16:33 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 284
+[24-Oct-2020 14:16:36 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 284
+[24-Oct-2020 14:16:55 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 284
+[24-Oct-2020 14:17:23 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 284
+[24-Oct-2020 14:20:22 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 284
+[24-Oct-2020 14:31:12 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 284
+[24-Oct-2020 16:22:51 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/matrimonyapp/public_html/demo/application/controllers/LoaddingPage.php on line 466
+[25-Oct-2020 06:15:12 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 614
+[25-Oct-2020 06:15:14 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 614
+[25-Oct-2020 06:22:43 Europe/London] PHP Parse error:  syntax error, unexpected '}' in /home2/matrimonyapp/public_html/demo/application/views/profiles.php on line 201
+[25-Oct-2020 06:22:46 Europe/London] PHP Parse error:  syntax error, unexpected '}' in /home2/matrimonyapp/public_html/demo/application/views/profiles.php on line 201
+[25-Oct-2020 07:23:36 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 313
+[25-Oct-2020 07:23:39 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/matrimonyapp/public_html/demo/application/views/index.php on line 453
+[25-Oct-2020 07:46:56 Europe/London] PHP Fatal error:  Call to undefined method Common_model::get_user_liked_profiles() in /home2/matrimonyapp/public_html/demo/application/controllers/User.php on line 72
+[25-Oct-2020 07:46:59 Europe/London] PHP Fatal error:  Call to undefined method Common_model::get_user_liked_profiles() in /home2/matrimonyapp/public_html/demo/application/controllers/User.php on line 72
+[25-Oct-2020 07:59:21 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:18 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:23 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:25 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:26 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:27 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:35 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:49 Europe/London] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 254
+[25-Oct-2020 08:00:57 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 270
+[25-Oct-2020 08:01:33 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 270
+[25-Oct-2020 08:04:39 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 38
+[25-Oct-2020 09:56:59 Europe/London] PHP Fatal error:  Call to a member function row() on a non-object in /home2/matrimonyapp/public_html/demo/application/models/admin/Common_model.php on line 163
+[25-Oct-2020 12:16:01 Europe/London] PHP Fatal error:  Call to undefined function sendemailtoall() in /home2/matrimonyapp/public_html/demo/application/controllers/LoaddingPage.php on line 493
+[11-Dec-2020 17:19:32 Europe/London] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) in /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php on line 570
+[11-Dec-2020 17:19:40 Europe/London] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) in /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php on line 570
+[11-Dec-2020 17:23:33 Europe/London] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) in /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php on line 570
+[11-Dec-2020 17:31:43 Europe/London] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) in /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php on line 570
+[11-Dec-2020 17:31:46 Europe/London] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) in /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php on line 570
+[11-Dec-2020 17:31:48 Europe/London] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) in /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php on line 570
+[13-Dec-2020 23:52:27 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 72
+[13-Dec-2020 23:53:36 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 72
+[13-Dec-2020 23:54:26 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 73
+[13-Dec-2020 23:55:01 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 73
+[13-Dec-2020 23:58:24 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 73
+[13-Dec-2020 23:58:49 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 73
+[14-Dec-2020 00:01:36 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 74
+[14-Dec-2020 00:02:22 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 75
+[14-Dec-2020 00:02:43 Europe/London] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 102
+[14-Dec-2020 00:03:35 Europe/London] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 102
+[14-Dec-2020 00:04:37 Europe/London] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 102
+[14-Dec-2020 00:05:17 Europe/London] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 105
+[14-Dec-2020 00:05:32 Europe/London] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 105
+[14-Dec-2020 00:06:04 Europe/London] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 105
+[14-Dec-2020 00:11:53 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/nayeebrahmincomm/public_html/application/controllers/LoaddingPage.php on line 72
+[14-Dec-2020 00:36:01 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/nayeebrahmincomm/public_html/application/controllers/admin/Common.php on line 282
+[14-Dec-2020 00:37:10 Europe/London] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home2/nayeebrahmincomm/public_html/application/controllers/admin/Common.php on line 876
+[14-Dec-2020 08:19:43 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 63
+[14-Dec-2020 08:19:44 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 63
+[14-Dec-2020 08:19:46 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 63
+[14-Dec-2020 08:39:27 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/models/admin/Common_model.php on line 55
+[14-Dec-2020 08:39:31 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/models/admin/Common_model.php on line 55
+[14-Dec-2020 08:40:35 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/models/admin/Common_model.php on line 55
+[14-Dec-2020 09:09:05 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 42
+[14-Dec-2020 09:09:08 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 42
+[14-Dec-2020 09:10:28 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 42
+[14-Dec-2020 09:10:33 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 42
+[14-Dec-2020 09:20:22 Europe/London] PHP Fatal error:  Call to a member function result() on a non-object in /home2/nayeebrahmincomm/public_html/application/views/admin/familymembers.php on line 45

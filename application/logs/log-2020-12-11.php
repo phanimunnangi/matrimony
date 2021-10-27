@@ -1,0 +1,113 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-12-11 02:29:39 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-12-11 03:02:31 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-12-11 03:02:50 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-12-11 05:15:35 --> 404 Page Not Found: Uploads/members
+ERROR - 2020-12-11 11:02:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-12-11 13:03:52 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-12-11 14:04:54 --> 404 Page Not Found: User/fmemberCollections
+ERROR - 2020-12-11 14:05:13 --> 404 Page Not Found: Family-members/index
+ERROR - 2020-12-11 14:05:16 --> 404 Page Not Found: Images/banners
+ERROR - 2020-12-11 14:07:07 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-12-11 14:43:48 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:43:48 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 14:43:48 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:43:55 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 14:43:55 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:43:55 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:55:12 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:55:12 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 14:55:12 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:56:31 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 14:56:31 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:56:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:56:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 14:56:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 15:15:24 --> 404 Page Not Found: admin/View/javascript
+ERROR - 2020-12-11 15:15:45 --> 404 Page Not Found: admin/View/javascript
+ERROR - 2020-12-11 17:01:57 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-12-11 17:02:01 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-12-11 17:19:32 --> Severity: Parsing Error --> syntax error, unexpected '"', expecting identifier (T_STRING) /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php 570
+ERROR - 2020-12-11 17:19:40 --> Severity: Parsing Error --> syntax error, unexpected '"', expecting identifier (T_STRING) /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php 570
+ERROR - 2020-12-11 17:23:33 --> Severity: Parsing Error --> syntax error, unexpected '"', expecting identifier (T_STRING) /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php 570
+ERROR - 2020-12-11 17:29:47 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:29:48 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:29:48 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 17:31:43 --> Severity: Parsing Error --> syntax error, unexpected '"', expecting identifier (T_STRING) /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php 570
+ERROR - 2020-12-11 17:31:46 --> Severity: Parsing Error --> syntax error, unexpected '"', expecting identifier (T_STRING) /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php 570
+ERROR - 2020-12-11 17:31:48 --> Severity: Parsing Error --> syntax error, unexpected '"', expecting identifier (T_STRING) /home2/nayeebrahmincomm/public_html/application/views/fmember-collections.php 570
+ERROR - 2020-12-11 17:44:41 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:44:41 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:44:41 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 17:45:54 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 17:51:23 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:51:23 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:51:23 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 17:54:06 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:54:06 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:54:06 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 17:54:52 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 17:54:52 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 17:54:52 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:02:03 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:02:03 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:02:03 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:26:29 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:26:29 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:26:30 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:26:30 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:26:30 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:09 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:10 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:10 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:27:10 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:10 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:12 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:12 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:27:12 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:13 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:13 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:27:14 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-12-11 18:28:25 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:28:26 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:28:26 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:28:26 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:28:26 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:37:55 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:37:55 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:37:55 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:37:55 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:37:56 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:41:14 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:41:14 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:41:14 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:41:15 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:41:15 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:43:13 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:43:13 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:43:14 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:43:14 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:43:14 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:44:34 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:44:34 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:44:34 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:44:34 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:44:34 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:05 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:05 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:06 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:47:06 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:06 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:32 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:47:32 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:48:42 --> 404 Page Not Found: Assets/css
+ERROR - 2020-12-11 18:48:42 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:48:42 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:48:42 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 18:48:42 --> 404 Page Not Found: Assets/js
+ERROR - 2020-12-11 19:45:06 --> Severity: Notice --> Undefined variable: reported /home2/nayeebrahmincomm/public_html/application/helpers/common_helper.php 49
+ERROR - 2020-12-11 19:45:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home2/nayeebrahmincomm/public_html/system/core/Exceptions.php:271) /home2/nayeebrahmincomm/public_html/system/helpers/url_helper.php 564

@@ -1,0 +1,192 @@
+/* Extra small devices - xs (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+
+/* Main Menu Styles Starts */
+
+	.main-menu {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.main-menu > .container {
+		max-width: 100%;
+	}
+		.main-menu .navbar-nav > .nav-item > a {
+			padding: 10px;
+		}
+			.main-menu .navbar-collapse {
+				margin-top: 5px;
+				padding: 10px 20px 5px;
+				border: solid #ececec;
+				border-width: 1px 0 0 0;
+			}
+
+/* Home Intro Section Styles Starts */
+
+	.home-intro {
+		padding-top: 0;
+	}
+	.home-intro-col::before {
+		font-size: 60px;
+		top: 15px;
+	}
+
+/* Generic Styles Starts */
+
+	.d-xs-block {
+		display: block !important;
+	}
+	.d-xs-none {
+		display: none;
+	}
+	.img-center-xs {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.text-xs-left   { text-align: left;   }
+	.text-xs-center { text-align: center; }
+	.text-xs-right  { text-align: right;  }			
+
+}
+
+/* Small devices - sm (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+/* Main Menu Styles Starts */
+
+	.main-menu {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.main-menu > .container {
+		max-width: 100%;
+	}
+		.main-menu .navbar-nav > .nav-item > a {
+			padding: 10px;
+		}
+			.main-menu .navbar-collapse {
+				margin-top: 5px;
+				padding: 10px 20px 5px;
+				border: solid #ececec;
+				border-width: 1px 0 0 0;
+			}	
+
+/* Home Intro Section Styles Starts */
+
+	.home-intro {
+		padding-top: 0;
+	}
+	.home-intro-col::before {
+		font-size: 90px;
+		top: 15px;
+	}			
+
+/* Generic Styles Starts */
+
+	.img-center-sm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Medium devices - md (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+/* Main Menu Styles Starts */
+
+	.main-menu .navbar-nav > .nav-item > a {
+		padding: 10px;
+	}
+		.main-menu .navbar-collapse {
+			margin-top: 5px;
+			padding: 10px 20px 5px;
+			border: solid #ececec;
+			border-width: 1px 0 0 0;
+		}
+
+/* Home Intro Section Styles Starts */
+
+	.home-intro {
+		padding-top: 0;
+	}	
+	.home-intro-col::before {
+		font-size: 90px;
+		top: 15px;
+	}
+	
+/* Generic Styles Starts */
+
+	.img-center-md {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Large devices - lg (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+/* Main Menu Styles Starts */
+
+	.main-menu .navbar-nav > .nav-item {
+		margin-right: 10px;
+	}
+	.main-menu .form-inline {
+		width: 200px;
+	}
+
+/* Home Intro Section Styles Starts */
+
+	.home-intro {
+		padding-top: 0;
+	}
+	.home-intro-col::before {
+		font-size: 90px;
+		top: 15px;
+	}
+
+/* Generic Styles Starts */
+
+	.img-center-lg {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+}
+
+/* Extra large devices - xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* Main Menu Styles Starts */
+		
+	.main-menu .dropdown:hover .dropdown-menu {
+		display: block;
+	}	
+
+/* Profile Search Styles Starts */
+
+	.profile-search::after {
+		content: "";
+		width: 239px;
+		height: 261px;
+		position: absolute;
+		right: 30px;
+		bottom: 0;
+		background: url(../images/home/home-search-start-img1.png) no-repeat right bottom;	
+	}
+
+/* Home Intro Section Styles Starts */
+
+	.home-intro-col::before {
+		font-size: 130px;
+	}
+
+/* Home Intro Section #2 Styles Starts */
+
+	.home-intro-section-2 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}	
+
+}

@@ -1,0 +1,33 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-11-17 02:35:22 --> 404 Page Not Found: Images/slider
+ERROR - 2020-11-17 07:30:40 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-11-17 11:12:06 --> 404 Page Not Found: Wp-includes/wlwmanifest.xml
+ERROR - 2020-11-17 11:12:57 --> 404 Page Not Found: Wordpress/wp-includes
+ERROR - 2020-11-17 11:12:58 --> 404 Page Not Found: Wp/wp-includes
+ERROR - 2020-11-17 11:12:58 --> 404 Page Not Found: Site/wp-includes
+ERROR - 2020-11-17 11:12:58 --> 404 Page Not Found: Cms/wp-includes
+ERROR - 2020-11-17 11:24:58 --> 404 Page Not Found: Images/icons
+ERROR - 2020-11-17 16:37:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-11-17 18:01:30 --> 404 Page Not Found: Wp-includes/wlwmanifest.xml
+ERROR - 2020-11-17 18:01:33 --> 404 Page Not Found: Blog/wp-includes
+ERROR - 2020-11-17 18:01:34 --> 404 Page Not Found: Web/wp-includes
+ERROR - 2020-11-17 18:01:37 --> 404 Page Not Found: Wordpress/wp-includes
+ERROR - 2020-11-17 18:01:40 --> 404 Page Not Found: Website/wp-includes
+ERROR - 2020-11-17 18:01:41 --> 404 Page Not Found: Wp/wp-includes
+ERROR - 2020-11-17 18:01:42 --> 404 Page Not Found: News/wp-includes
+ERROR - 2020-11-17 18:01:43 --> 404 Page Not Found: 2018/wp-includes
+ERROR - 2020-11-17 18:01:43 --> 404 Page Not Found: 2019/wp-includes
+ERROR - 2020-11-17 18:01:44 --> 404 Page Not Found: Shop/wp-includes
+ERROR - 2020-11-17 18:01:44 --> 404 Page Not Found: Wp1/wp-includes
+ERROR - 2020-11-17 18:01:44 --> 404 Page Not Found: Test/wp-includes
+ERROR - 2020-11-17 18:01:45 --> 404 Page Not Found: Media/wp-includes
+ERROR - 2020-11-17 18:01:45 --> 404 Page Not Found: Wp2/wp-includes
+ERROR - 2020-11-17 18:01:45 --> 404 Page Not Found: Site/wp-includes
+ERROR - 2020-11-17 18:01:46 --> 404 Page Not Found: Cms/wp-includes
+ERROR - 2020-11-17 18:01:46 --> 404 Page Not Found: Sito/wp-includes
+ERROR - 2020-11-17 18:51:01 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-11-17 20:30:39 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-11-17 22:35:36 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-11-17 22:35:38 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-11-17 23:08:55 --> 404 Page Not Found: Business/index
