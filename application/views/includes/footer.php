@@ -11,7 +11,7 @@
 						<input value="1" class="form-check-input clsregisterthru" type="radio" id="registerthru1" name="registerthru">
 						<label class="form-check-label" for="disabledFieldsetCheck">Matrimony</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						<input value="2" checked class="form-check-input clsregisterthru" type="radio" id="registerthru2" name="registerthru">
-						<label class="form-check-label" for="disabledFieldsetCheck">Community Portal</label>
+						<label class="form-check-label" for="disabledFieldsetCheck">Business Profile</label>
 					</div>
 					<span id="hid_user_referal_code" style="display:none;">
 						<div class="form-group">
@@ -217,10 +217,10 @@
 				<!-- Site Info Starts -->
 					<div class="col-md-4 col-sm-12">
 						<div class="foot-col">
-							<p class="pb-md-3"><img src="<?php echo base_url(); ?>assets/images/foot-logo.png" alt="Brahmana Swayamvaram Matrimony" class="img-fluid"></p>
+							<p class="pb-md-3"><img src="<?php echo base_url(); ?>assets/images/foot-logo.png" alt="Nayee Brahamana Matrimony" class="img-fluid"></p>
 								<ul class="list-unstyled foot-col-address">
 								<li class="d-flex"><i class="fa fa-map-marker text-color-brand"></i> # 11-13-852/B/CD, Near Koti, RS Brothers Showroom Bus Stop,Beside Jadish Market, Abids, Hyd - 500036, Telangana..</li>
-								<li class="d-flex"><i class="fa fa-envelope text-color-brand"></i> <a href="mailto:support@Brahmana Swayamvaramcommunity.com" class="text-white">Brahmana Swayamvaramcommunity@gmail.com</a></li>
+								<li class="d-flex"><i class="fa fa-envelope text-color-brand"></i> <a href="mailto:support@nayeebrahmincommunity.com" class="text-white">nayeebrahmincommunity@gmail.com</a></li>
 								<li class="d-flex"><i class="fa fa-phone text-color-brand"></i> <a href="tel:+91 9849100005" class="text-white">+91 9849100005</a></li>
 							</ul>
 						</div>
@@ -278,7 +278,7 @@
 				</ul>
 			<!-- Social Media Links Ends -->
 			<!-- Copyright Starts -->
-				<p class="copyright text-center text-white">Copyright &copy; <span class="date-stamp">2021</span>  <span class="text-color-brand">Brahmana Swayamvaram Community & Matrimony</span> All Rights Reserved.</p>
+				<p class="copyright text-center text-white">Copyright &copy; <span class="date-stamp">2021</span>  <span class="text-color-brand">Nayeebrahmin Community & Matrimony</span> All Rights Reserved.</p>
 			<!-- Copyright Ends -->
 			</div>
 		<!-- Nested Container Ends -->
@@ -300,7 +300,7 @@
 			<?php }else{ ?>
 				<?php if(isset($_GET['register_error']) && $_GET['register_error']!=""){ ?>
 				<?php }else{ ?>
-				//	$("#loginModal").modal("show");
+					//$("#loginModal").modal("show");
 				<?php } ?>
 			<?php } ?>
 		});

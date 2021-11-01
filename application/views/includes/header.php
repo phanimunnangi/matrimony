@@ -106,11 +106,10 @@
 				<?php if(isset($_SESSION['user_registeredid']) && $_SESSION['user_registeredid']!=""){ 
 					if(isset($_SESSION['loginwith']) && $_SESSION['loginwith']=="CommunityProtal"){ ?>
 						<a style="margin-left:10px;" href="<?php echo base_url(); ?>family-members" class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Add Family Info</a>&nbsp;&nbsp; 
-						<a href="<?php echo base_url(); ?>communitydetails" class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Commuinty Details</a>
 					<?php }else{ ?>
 					<a href="<?php echo base_url(); ?>editprofile" class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Edit Profile</a>
 					<?php } }else{ ?>
-					<a href="javascript:void(0);" onClick="registerationform();"  class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Submit your details</a>&nbsp;&nbsp;
+					<a href="javascript:void(0);" onClick="registerationform();"  class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Register your profile</a>&nbsp;&nbsp;
 				<?php } ?>
 			<!-- Button Ends -->
 			</div>
@@ -132,10 +131,8 @@
 					<ul class="nav navbar-nav text-uppercase">
 						<li class="nav-item <?php echo $homepage; ?>"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
 						<li class="nav-item <?php echo $aboutuspage; ?>"><a href="<?php echo base_url(); ?>aboutus" class="nav-link">About Us</a></li>
-						<li class="nav-item <?php echo $bridepage; ?>"><a href="<?php echo base_url(); ?>bride-profiles" class="nav-link">Bride Profiles</a></li>
-						<li class="nav-item <?php echo $groompage; ?>"><a href="<?php echo base_url(); ?>groom-profiles" class="nav-link">Groom Profiles</a></li>
-						<li class="nav-item <?php echo $nripage; ?>"><a href="<?php echo base_url(); ?>nri-profiles" class="nav-link">NRI Profiles</a></li>
-						<li class="nav-item <?php echo $secondmarriagepage; ?>"><a href="<?php echo base_url(); ?>secondmarriage-profiles" class="nav-link">Second Marriage</a></li>
+						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>how" class="nav-link">How</a></li>
+						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>Desclimer" class="nav-link">Desclimer</a></li>
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>packages" class="nav-link">Payment Info</a></li>
 						<li class="nav-item <?php echo $contactuspage; ?>"><a href="<?php echo base_url(); ?>contactus" class="nav-link">Contact Us</a></li>
 					</ul>

@@ -6,7 +6,7 @@
 				<div class="carousel-item active">
 					<img src="<?php echo base_url(); ?>assets/images/slider/slide-img1.jpg" alt="Image" class="d-block w-100">
 					<div class="carousel-caption d-none d-lg-block">
-						<h2 class="text-weight-semi-bold">Brahmana Swayamvaram</h2>
+						<h2 class="text-weight-semi-bold">Nayeebrahmin</h2>
         				<h2 class="text-weight-light">Free Matrimony Services</h2>
 					</div>
 				</div>
@@ -15,7 +15,7 @@
 				<div class="carousel-item">
 					<img src="<?php echo base_url(); ?>assets/images/slider/slide-img2.jpg" alt="Image" class="d-block w-100">
 					<div class="carousel-caption d-none d-lg-block">
-						<h2 class="text-weight-semi-bold">Exclusively For Brahmana Swayamvarams</h2>
+						<h2 class="text-weight-semi-bold">Exclusively For Nayeebrahmins</h2>
         				<h2 class="text-weight-light">Matrimony & Community Portal</h2>
 					</div>
 				</div>
@@ -38,177 +38,7 @@
 	<!-- Main Container Starts -->
 		<div class="main-container container px-md-0">
 			<!-- About Section Starts -->
-			<section class="section-area-1">
-			<!-- Nested Row Starts -->
-				<div class="row">
-				<!-- Content Starts -->
-					<div class="col-lg-6 col-sm-12">
-						<h4 class="text-weight-medium text-color-brand">About Nayee</h4>
-						<h3 class="h1 text-weight-semi-bold text-color-black-1">Does more then ever platform to achieve goal stages.</h3>
-						<ul class="list-unstyled list-style-1 text-big-1 pt-4 mt-lg-3">
-							<li>Save time – we focus on the details.</li>
-							<li>Save money – we help protect you from non-compliance issues.</li>
-							<li>Grow – you keep your focus on increasing revenue.</li>
-							<li>Retain control – you keep full control over your employees.</li>
-						</ul>
-						<p class="text-big-2 pt-2 pt-lg-3"><a href="#" class="text-weight-medium text-color-brand text-underline animation">Explore more About Us</a></p>
-					</div>
-				<!-- Content Ends -->
-				<!-- Image Starts -->
-					<div class="col-lg-6 col-sm-12">
-						<p class="text-center pt-4 pt-lg-5"><img src="<?php echo base_url(); ?>assets/images/community/community-img1.jpg" alt="Image" class="img-fluid"></p>
-					</div>
-				<!-- Image Ends -->
-				</div>
-			<!-- Nested Row Ends -->
-			</section>
-		<!-- About Section Ends -->
-		<!-- Intro Section Starts -->
-			<ul class="list-unstyled row home-intro">
-				<li class="col-lg-4 col-sm-6 col-12">
-					<div class="home-intro-col">
-						<h5 class="home-intro-sub-title text-weight-normal">Free Matrimony</h5>
-						<h4 class="home-intro-title text-weight-semi-bold text-color-brand">Nayee Community</h4>
-					</div>
-				</li>
-				<li class="col-lg-4 col-sm-6 col-12">
-					<div class="home-intro-col">
-						<h5 class="home-intro-sub-title text-weight-normal">Commnity Information</h5>
-						<h4 class="home-intro-title text-weight-semi-bold text-color-blue-1">Community Directory</h4>
-					</div>
-				</li>
-				<li class="col-lg-4 col-sm-6 col-12">
-					<div class="home-intro-col">
-						<h5 class="home-intro-sub-title text-weight-normal">Expore Your Service</h5>
-						<h4 class="home-intro-title text-weight-semi-bold text-color-yellow-1">Promote Profession</h4>
-					</div>
-				</li>
-				
-			</ul>
-		<!-- Intro Section Ends -->
-		
-		<!-- Our Key Features Section Starts -->
-			<section class="section-area-1 text-color-black-1">
-			<!-- Heading & Excerpt Starts -->
-				<h3 class="text-weight-semi-bold text-color-brand">Our Key Features</h3>
-				<p class="text-big-2">Check out the key service offerings provided throughout our world-class learning programs</p>
-			<!-- Heading & Excerpt Ends -->
-			<!-- Nested Row Starts -->
-				<div class="row">
-				<!-- Col #1 Starts -->
-					<div class="col-md-4 col-sm-12 pt-5">
-						<p><img src="<?php echo base_url(); ?>assets/images/icons/community/cc-icon-1.jpg" alt="Icon 1" class="img-fluid"></p>
-						<h5 class="text-weight-semi-bold hs-3">Course Customization</h5>
-						<p>Our expert trainers assist our clients in creating a customized learning plan to ensure the best learning outcomes. Experience and profound knowledge by involving in hands-on projects.</p>
-					</div>
-				<!-- Col #1 Ends -->
-				<!-- Col #2 Starts -->
-					<div class="col-md-4 col-sm-12 pt-5">
-						<p><img src="<?php echo base_url(); ?>assets/images/icons/community/rt-proj-icon1.jpg" alt="Icon 2" class="img-fluid"></p>
-						<h5 class="text-weight-semi-bold hs-3">Real-Time Projects</h5>
-						<p>Gain real-time experience and profound knowledge by involving in hands-on projects and get hired quickly. Experience and profound knowledge by involving in hands-on projects.</p>
-					</div>
-				<!-- Col #2 Ends -->
-				<!-- Col #3 Starts -->
-					<div class="col-md-4 col-sm-12 pt-5">
-						<p><img src="<?php echo base_url(); ?>assets/images/icons/community/lms-icon-1.jpg" alt="Icon 3" class="img-fluid"></p>
-						<h5 class="text-weight-semi-bold hs-3">Learning Managment System</h5>
-						<p>We provide access to LMS that offers a secure and seamless user experience. This facilitates easy access to learning materials and personalization.. Experience and profound knowledge.</p>
-					</div>
-				<!-- Col #3 Ends -->
-				</div>
-			<!-- Nested Row Ends -->
-			</section>
-		<!-- Our Key Features Section Ends -->
-		<!-- Demo & News Section Starts -->
-			<section class="section-area-1">
-			<!-- Nested Row Starts -->
-				<div class="row">
-				<!-- Free Demo Col Starts -->
-					<div class="col-md-6 col-sm-12">
-					<!-- Heading Starts -->
-						<h3 class="h3 text-weight-semi-bold text-color-brand">Request a Free Demo!</h3>
-					<!-- Heading Ends -->
-					<!-- Form Starts -->
-						<div class="row profile-form pt-3 pt-lg-4">
-						<!-- Full Name Starts -->
-							<div class="col-md-6 col-sm-12">
-								<div class="form-group">
-									<input type="text" name="demo-fullname" id="demo-fullname" class="form-control animation rounded-2" placeholder="Full Name *" required>
-								</div>
-							</div>
-						<!-- Full Name Ends -->
-						<!-- Email Address Starts -->
-							<div class="col-md-6 col-sm-12">
-								<div class="form-group">
-									<input type="email" name="demo-email" id="demo-email" class="form-control animation rounded-2" placeholder="Email Address *" required>
-								</div>
-							</div>
-						<!-- Email Address Ends -->
-						<!-- Course Name Starts -->
-							<div class="col-md-6 col-sm-12">
-								<div class="form-group">
-									<input type="text" name="demo-course-name" id="demo-course-name" class="form-control animation rounded-2" placeholder="Course Name *" required>
-								</div>
-							</div>
-						<!-- Course Name Ends -->
-						<!-- Phone Number Starts -->
-							<div class="col-md-6 col-sm-12">
-								<div class="form-group">
-									<input type="tel" name="demo-course-tel" id="demo-course-tel" class="form-control animation rounded-2" placeholder="Phone Number">
-								</div>
-							</div>
-						<!-- Phone Number Ends -->
-						<!-- Message Starts -->
-							<div class="col-sm-12">
-								<div class="form-group">
-									<textarea name="demo-message" id="demo-message" rows="4" class="form-control animation rounded-2" placeholder="Message"></textarea>
-								</div>
-							</div>
-						<!-- Message Ends -->
-						<!-- Submit Button Starts -->
-							<div class="col-sm-12 mt-3">
-								<button type="submit" class="btn btn-main btn-style-3 text-weight-semi-bold animation rounded-30">Send Message</button>
-							</div>
-						<!-- Submit Button Ends -->
-						</div>
-					<!-- Form Ends -->
-					</div>
-				<!-- Free Demo Col Ends -->
-				<!-- News Col Starts -->
-					<div class="col-md-6 col-sm-12">
-					<!-- News & Events Starts -->
-						<div class="box-3 rounded-5 my-3 text-white">
-							<h4>Community News & Events</h4><br>
-							<marquee behavior="scroll" direction="up" scrollamount="3">
-							<ul class="list-unstyled list-style-1 text-white mb-0">
-								<li>Aliquam sodales justo sit amet urna auctor scelerisquinterdum.</li>
-								<li>Our offices are located on the traditional, unceded and occupied territories of the Coast Salish  including the territories.</li>
-								<li>Aliquam sodales justo sit amet urna auctor scelerisquinterdum. Our offices are located on the traditional, unceded and occupied territories of the Coast Salish  including the territories.</li>
-							</ul>
-							</marquee>
-						</div>
-					<!-- News & Events Ends -->
-					<!-- Contact Details Starts -->
-						<ul class="list-unstyled clearfix pt-4">
-							<li class="float-lg-left d-flex">
-								<i class="fa fa-mobile fa-3x icon-bg-1 rounded-circle text-center text-white"></i>
-								<div class="ml-2">
-									<p class="mb-0">Call us for more information</p>
-									<h3 class="text-weight-semi-bold text-color-brand">+91 9988 765432</h3>
-								</div>
-							</li>
-							<li class="float-lg-right">
-								<a href="#" class="btn btn-main btn-style-2 text-weight-semi-bold animation rounded-30 text-big-2"><i class="fa fa-envelope mr-2"></i> Mail Us</a>
-							</li>
-						</ul>
-					<!-- Contact Details Ends -->
-					</div>
-				<!-- News Col Ends -->
-				</div>
-			<!-- Nested Row Ends -->
-			</section>
-		<!-- Demo & News Section Ends -->
+			
 		<!-- Gallery Section Starts -->
 			<section class="section-area-1">
 			<!-- Heading Starts -->
