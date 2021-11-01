@@ -39,47 +39,6 @@
 		<div class="main-container container px-md-0">
 			<!-- About Section Starts -->
 			
-		<!-- Gallery Section Starts -->
-			<section class="section-area-1">
-			<!-- Heading Starts -->
-				<h3 class="text-color-brand h3 text-weight-semi-bold">Gallery</h3>
-			<!-- Heading Ends -->
-			<!-- Gallery Carousel Starts -->
-				<div class="gallery-carousel gallery-carousel-1">
-				<!-- Item #1 Starts -->
-					<div class="box-2 roudned-5 text-center text-color-black-1">
-						<p><img src="<?php echo base_url(); ?>assets/images/community/gallery-img1.jpg" alt="Image" class="img-fluid"></p>
-						<h6>Business Intelligence Training</h6>
-					</div>
-				<!-- Item #1 Ends -->
-				<!-- Item #2 Starts -->
-					<div class="box-2 roudned-5 text-center text-color-black-1">
-						<p><img src="<?php echo base_url(); ?>assets/images/community/gallery-img1.jpg" alt="Image" class="img-fluid"></p>
-						<h6>Business Intelligence Training</h6>
-					</div>
-				<!-- Item #2 Ends -->
-				<!-- Item #3 Starts -->
-					<div class="box-2 roudned-5 text-center text-color-black-1">
-						<p><img src="<?php echo base_url(); ?>assets/images/community/gallery-img1.jpg" alt="Image" class="img-fluid"></p>
-						<h6>Business Intelligence Training</h6>
-					</div>
-				<!-- Item #3 Ends -->
-				<!-- Item #4 Starts -->
-					<div class="box-2 roudned-5 text-center text-color-black-1">
-						<p><img src="<?php echo base_url(); ?>assets/images/community/gallery-img1.jpg" alt="Image" class="img-fluid"></p>
-						<h6>Business Intelligence Training</h6>
-					</div>
-				<!-- Item #4 Ends -->
-				<!-- Item #5 Starts -->
-					<div class="box-2 roudned-5 text-center text-color-black-1">
-						<p><img src="<?php echo base_url(); ?>assets/images/community/gallery-img1.jpg" alt="Image" class="img-fluid"></p>
-						<h6>Business Intelligence Training</h6>
-					</div>
-				<!-- Item #5 Ends -->
-				</div>
-			<!-- Gallery Carousel Ends -->
-			</section>
-		<!-- Gallery Section Ends -->
 		</div>
 	<!-- Main Container Ends -->
 	<!-- Home Services Section Starts -->
