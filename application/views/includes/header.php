@@ -134,6 +134,7 @@
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>how" class="nav-link">How</a></li>
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>Desclimer" class="nav-link">Desclimer</a></li>
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>packages" class="nav-link">Payment Info</a></li>
+						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>packages" class="nav-link">Register Your Business</a></li>
 						<li class="nav-item <?php echo $contactuspage; ?>"><a href="<?php echo base_url(); ?>contactus" class="nav-link">Contact Us</a></li>
 					</ul>
 				<!-- Nav Links Ends -->

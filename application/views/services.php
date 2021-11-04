@@ -48,31 +48,33 @@
 						<!-- Listing #1 Starts -->
 							<div class="box-3 rounded-2 d-md-flex w-100">
 							<!-- Image Starts -->
-								<p class="mb-md-0 w-50"><img src="<?php echo base_url(); ?>assets/images/business-listing/ps-img1.png" alt="Image" class="img-fluid"></p>
+								<p class="mb-md-0 w-50"><img src="<?php echo base_url(); ?>assets/images/business-listing/<?php echo $service->servicewebimage;?>" alt="Image" class="img-fluid"></p>
 							<!-- Image Ends -->
 							<!-- Details Starts -->
+									<?php //echo "<pre>"; print_r($service->servicename);?>
 								<div class="box-3-details ml-md-4 w-100">
-									<h3 class="h3 text-weight-semi-bold text-color-red-1 mb-2">Ramtantra Photography</h3>
+								<?php //echo "<pre>"; print_r($service); die;?>
+									<h3 class="h3 text-weight-semi-bold text-color-red-1 mb-2"><?php echo $service->servicename;?></h3>
 									<ul class="list-unstyled mb-0">
 										<li class="row pt-2">
 											<span class="text-weight-semi-bold text-big-1 col-4 col-md-3">Contact No :</span>
-											<span class="col-8 col-md-9">9989 789456, 8877 456321, 040-40140199</span>
+											<span class="col-8 col-md-9"><?php echo $service->serviceprimarycontactnumber;?></span>
 										</li>
 										<li class="row pt-2">
 											<span class="text-weight-semi-bold text-big-1 col-4 col-md-3">Email id :</span>
-											<span class="col-8 col-md-9"><a href="mailto:ramtantraphotos@gmail.com" class="text-color-black-1">ramtantraphotos@gmail.com</a></span>
+											<span class="col-8 col-md-9"><a href="mailto:<?php echo $service->servicename;?>" class="text-color-black-1"><?php echo $service->servicename;?></a></span>
 										</li>
 										<li class="row pt-2">
 											<span class="text-weight-semi-bold text-big-1 col-4 col-md-3">Address :</span>
-											<span class="col-8 col-md-9">Tricon Heights Appartment, Puppalaguda, Manikonda, Hyderabad - 500089, Near Kid Zee School</span>
+											<span class="col-8 col-md-9"><?php echo $service->serviceaddress;?></span>
 										</li>
 										<li class="row pt-2">
 											<span class="text-weight-semi-bold text-big-1 col-4 col-md-3">Services :</span>
-											<span class="col-8 col-md-9">Wedding Photography, Candid Shoot</span>
+											<span class="col-8 col-md-9"><?php echo join(',',array($service->serviceskil1,$service->serviceskil2,$service->serviceskil3,$service->serviceskil4));?></span>
 										</li>
 										<li class="row pt-2">
 											<span class="text-weight-semi-bold text-big-1 col-4 col-md-3">Website :</span>
-											<span class="col-8 col-md-9"><a href="http://www.ramantatraphotos.com/" class="text-color-black-1">www.ramantatraphotos.com</a></span>
+											<span class="col-8 col-md-9"><a href="<?php echo $service->servicewebsite;?>" class="text-color-black-1"><?php echo $service->servicewebsite;?></a></span>
 										</li>
 									</ul>
 								</div>

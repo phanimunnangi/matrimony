@@ -217,11 +217,11 @@
 				<!-- Site Info Starts -->
 					<div class="col-md-4 col-sm-12">
 						<div class="foot-col">
-							<p class="pb-md-3"><img src="<?php echo base_url(); ?>assets/images/foot-logo.png" alt="Nayee Brahamana Matrimony" class="img-fluid"></p>
+							<p class="pb-md-3"><h4>Brahamana Matrimony</h4></p>
 								<ul class="list-unstyled foot-col-address">
-								<li class="d-flex"><i class="fa fa-map-marker text-color-brand"></i> # 11-13-852/B/CD, Near Koti, RS Brothers Showroom Bus Stop,Beside Jadish Market, Abids, Hyd - 500036, Telangana..</li>
-								<li class="d-flex"><i class="fa fa-envelope text-color-brand"></i> <a href="mailto:support@nayeebrahmincommunity.com" class="text-white">nayeebrahmincommunity@gmail.com</a></li>
-								<li class="d-flex"><i class="fa fa-phone text-color-brand"></i> <a href="tel:+91 9849100005" class="text-white">+91 9849100005</a></li>
+								<li class="d-flex"><i class="fa fa-map-marker text-color-brand"></i> # Plot no.11&12 Flat no.401 Sri Datta Nivas Srinivasa colony Near Konaseema Vantillu back side of little cherries school JNTUH-Kphb 500090.</li>
+								
+								<li class="d-flex"><i class="fa fa-phone text-color-brand"></i> <a href="tel:+91 9849100005" class="text-white">+91 8008672640</a></li>
 							</ul>
 						</div>
 					</div>
@@ -231,17 +231,14 @@
 						<div class="foot-col">
 							<h5 class="text-weight-semi-bold hs-1">Our Services</h5>
 							<ul class="list-unstyled foot-links-1 pt-md-3">
-								<li><a href="javascript:void(0);" onClick="registerationform();"  class="text-white">Register Profile</a></li>
-								<li><a href="<?php echo base_url(); ?>services-info" class="text-white">Submit Services</a></li>	
-								<li><a href="<?php echo base_url(); ?>contactus" class="text-white">Banner Advertising</a></li>
-								<li><a href="<?php echo base_url(); ?>contactus" class="text-white">Add Family Info</a></li>
-								<li><a href="<?php echo base_url(); ?>aboutus" class="text-white">About Us</a></li>
+								<li><a href="javascript:void(0);" onClick="registerationform();"  class="text-white">Register Your Profile</a></li>
+								<li><a href="<?php echo base_url(); ?>services-info" class="text-white">Register Your Services</a></li>
 							</ul>
 						</div>
 					</div>
 				<!-- Our Services Links Ends -->
-				<!-- More Page Links Starts -->
-					<div class="col-md-2 col-sm-6 col-12">
+				<!-- More Page Links Starts 
+					<div class="col-md-2 col-sm-6 col-12 hidden">
 						<div class="foot-col">
 							<h5 class="text-weight-semi-bold hs-1">More Pages</h5>
 							<ul class="list-unstyled foot-links-1 pt-md-3">
@@ -252,7 +249,7 @@
 								<li><a href="<?php echo base_url(); ?>secondmarriage-profiles" class="text-white">Second Marriage</a></li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 				<!-- More Page Links Ends -->
 				<!-- Subscribe Newsletter Starts -->
 					<div class="col-md-4 col-sm-12">
@@ -278,7 +275,7 @@
 				</ul>
 			<!-- Social Media Links Ends -->
 			<!-- Copyright Starts -->
-				<p class="copyright text-center text-white">Copyright &copy; <span class="date-stamp">2021</span>  <span class="text-color-brand">Nayeebrahmin Community & Matrimony</span> All Rights Reserved.</p>
+				<p class="copyright text-center text-white">Copyright &copy; <span class="date-stamp">2021</span>  <span class="text-color-brand">Brahmin Community & Matrimony</span> All Rights Reserved.</p>
 			<!-- Copyright Ends -->
 			</div>
 		<!-- Nested Container Ends -->
