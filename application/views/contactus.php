@@ -57,11 +57,6 @@
                         <!-- Whatsapp No Ends -->
                         </div>
                     <!-- Content Ends -->
-                    <!-- Image Starts -->
-                        <div class="col-md-5 col-sm-12">
-                            <p class="text-center"><img src="<?php echo base_url(); ?>assets/images/contact/contact-img1.jpg" alt="Image" class="img-fluid"></p>
-                        </div>
-                    <!-- Image Ends -->
                     </div>
                 <!-- Nested Row Ends -->
                 </div>
