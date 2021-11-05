@@ -41,19 +41,19 @@
                         <div class="col-md-7 col-sm-12">
                         <!-- Address Starts -->
                             <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-map-marker mr-2"></i> Address :</h4>
-                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3"># 11-13-852/B/CD,  <br>Near Koti, RS Brothers Showroom Bus Stop, <br>Beside Jadish Market, Abids, <br>Alwal-Alwal, Hyd - 500036, Telangana.</p>
+                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3"># PLOT NO : 972 NEAR 3 MONKEYS CENTER PRAGAHTI NAGAR OPP: KPHB JNTU ROAD. HYDERBAD 500090. CELL NO. 8008672640</p>
                         <!-- Address Ends -->
                         <!-- Phone No Starts -->
                             <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-phone mr-2 pt-lg-3"></i> Phone No :</h4>
-                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3"><a href="tel:+91 9849010101" class="text-color-black-1 animation">+91 9849010101</a></p>
+                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3"><a href="tel:+91 8008672640" class="text-color-black-1 animation">+91 8008672640</a></p>
                         <!-- Phone No Ends -->
                         <!-- Email ID Starts -->
                             <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-envelope mr-2 pt-lg-3"></i> Email ID :</h4>
-                            <p class="text-big-2 text-weight-semi-bold lh-1 pl-3 ml-lg-3"><a href="mailto:Brahmana Swayamvaramcommunity@gmail.com" class="text-color-black-1 animation">Brahmana Swayamvaramcommunity@gmail.com</a></p>
+                            <p class="text-big-2 text-weight-semi-bold lh-1 pl-3 ml-lg-3"><a href="mailto:theswayamvaram@gmail.com" class="text-color-black-1 animation">theswayamvaram@gmail.com</a></p>
                         <!-- Email ID Ends -->
                         <!-- Whatsapp No Starts -->
                             <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-whatsapp mr-2 pt-lg-3"></i> Whatsapp No :</h4>
-                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3">9849100009</p>
+                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3"><a href="https://wa.me/918008672640" target="_blank"><img alt="WhatsApp Main Page" src="https://static.xx.fbcdn.net/rsrc.php/ym/r/36B424nhiL4.svg"></a></p>
                         <!-- Whatsapp No Ends -->
                         </div>
                     <!-- Content Ends -->

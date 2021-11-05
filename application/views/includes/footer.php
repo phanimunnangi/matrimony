@@ -217,10 +217,10 @@
 					<div class="col-md-4 col-sm-12">
 						<div class="foot-col">
 							<p class="pb-md-3"><h4>Brahamana Matrimony</h4></p>
+								<li class="d-flex"><i class="fa fa-map-marker text-color-brand"></i> # PLOT NO : 972 NEAR 3 MONKEYS CENTER PRAGAHTI NAGAR OPP: KPHB JNTU ROAD.HYDERBAD 500090. CELL NO. 8008672640</li>								
+								<li class="d-flex"><i class="fa fa-phone text-color-brand"></i> <a href="tel:+91 9849100005" class="text-white"> +91 8008672640</a></li>
+								 <li class="d-flex"><i class="fa fa-envelope text-color-brand"></i><a class="text-white" href="mailto:theswayamvaram@gmail.com" class="text-color-black-1 animation"> theswayamvaram@gmail.com</a></li>
 								<ul class="list-unstyled foot-col-address">
-								<li class="d-flex"><i class="fa fa-map-marker text-color-brand"></i> # Plot no.11&12 Flat no.401 Sri Datta Nivas Srinivasa colony Near Konaseema Vantillu back side of little cherries school JNTUH-Kphb 500090.</li>
-								
-								<li class="d-flex"><i class="fa fa-phone text-color-brand"></i> <a href="tel:+91 9849100005" class="text-white">+91 8008672640</a></li>
 							</ul>
 						</div>
 					</div>
