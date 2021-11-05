@@ -1,4 +1,4 @@
-	<!-- Page Banner Starts -->
+<!-- Page Banner Starts -->
 		<div class="page-banner">
         <!-- Banner Image Starts -->
             <img src="<?php echo base_url(); ?>assets/images/banners/page-banners/page-banner-img1.jpg" alt="Image" class="img-fluid">

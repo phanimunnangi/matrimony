@@ -74,7 +74,6 @@
 	</div>
 </div>
 <!-- Modal Window Ends -->
-
 <div class="modal fade register-modal " id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="false" data-keyboard="false" data-backdrop="static">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content modal-content-1 rounded-5">

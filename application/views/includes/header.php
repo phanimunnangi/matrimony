@@ -66,7 +66,7 @@
 			var base_url = '<?php echo base_url(); ?>';
 			var time = '<?php echo time(); ?>';
 		</script>
-	</head>
+	</head> 
 	<body>
 	<!-- Topbar Starts -->
 		<div class="topbar text-white">
