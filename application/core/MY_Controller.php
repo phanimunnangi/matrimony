@@ -34,7 +34,7 @@ class MY_Controller extends CI_Controller {
 	}
 	public function login_required(){
 		if (!$this->session->userdata('validated')) {
-			redirect('matrimonyappadmindashboard', 'refresh'); 
+			redirect('swayamadmin', 'refresh'); 
 		}else{
 			return true;
 		}

@@ -80,6 +80,6 @@ $route['family-members']   = 'LoaddingPage/fmemberCollections';
 
 $route['sendemail']   = 'LoaddingPage/emailChecking';
 
-$route['matrimonyappadmindashboard'] = 'admin/login';
+$route['swayamadmin'] = 'admin/login';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

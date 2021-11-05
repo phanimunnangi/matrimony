@@ -13,7 +13,7 @@ class Login extends MY_Controller {
 				$this->session->set_flashdata('success_message', '"Welcome to Admin Dashboard","Success"');				redirect(base_url().'admin/dashboard');
 			}else{
 				$this->session->set_flashdata('error_message', '"Please try again later.","Failed!"');
-				redirect(base_url().'matrimonyappadmindashboard');
+				redirect(base_url().'swayamadmin');
 			}
 		}else{
 			$this->load->view('admin/login');
@@ -22,7 +22,7 @@ class Login extends MY_Controller {
 	public function logout(){
 		$this->session->sess_destroy();
 		$this->session->set_flashdata('success_message', '"Logged Out Successsfully","Success"');
-		redirect(base_url().'matrimonyappadmindashboard');
+		redirect(base_url().'swayamadmin');
 	}
 }
 
