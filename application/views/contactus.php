@@ -52,8 +52,8 @@
                             <p class="text-big-2 text-weight-semi-bold lh-1 pl-3 ml-lg-3"><a href="mailto:theswayamvaram@gmail.com" class="text-color-black-1 animation">theswayamvaram@gmail.com</a></p>
                         <!-- Email ID Ends -->
                         <!-- Whatsapp No Starts -->
-                            <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-whatsapp mr-2 pt-lg-3"></i> Whatsapp No :</h4>
-                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3"><a href="https://wa.me/918008672640" target="_blank"><img alt="WhatsApp Main Page" src="https://static.xx.fbcdn.net/rsrc.php/ym/r/36B424nhiL4.svg"></a></p>
+                            <h4 class="text-color-red-1 text-weight-semi-bold"><i class="fa fa-whatsapp mr-2 pt-lg-3"></i> Whatsapp :</h4>
+                            <p class="text-big-2 text-weight-semi-bold lh-1 text-color-black-1 pl-3 ml-lg-3"><a href="https://wa.me/919100921282" target="_blank"><img alt="WhatsApp Main Page" src="https://static.xx.fbcdn.net/rsrc.php/ym/r/36B424nhiL4.svg"></a></p>
                         <!-- Whatsapp No Ends -->
                         </div>
                     <!-- Content Ends -->
