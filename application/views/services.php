@@ -48,7 +48,7 @@
 						<!-- Listing #1 Starts -->
 							<div class="box-3 rounded-2 d-md-flex w-100">
 							<!-- Image Starts -->
-								<p class="mb-md-0 w-50"><img src="<?php echo base_url(); ?>assets/images/business-listing/<?php echo $service->servicewebimage;?>" alt="Image" class="img-fluid" style="width:50px !important;"></p>
+								<p class="mb-md-0 w-50"><img src="<?php echo base_url(); ?>assets/images/business-listing/<?php echo $service->servicewebimage;?>" alt="Image" class="img-fluid"></p>
 							<!-- Image Ends -->
 							<!-- Details Starts -->
 									<?php //echo "<pre>"; print_r($service->servicename);?>

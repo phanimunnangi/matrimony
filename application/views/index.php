@@ -61,7 +61,7 @@
 							$servicemastername = ucfirst($services->servicemastername);
 					?>
 							<li class="col-lg-3 col-md-4 col-sm-6 col-12 home-services-list-item">
-								<div class="diamond-shape bg-blue-1 rounded-10 mx-auto"><img src="<?php echo base_url(); ?>servicepics/<?php echo $servicemasterwebimage; ?>" alt="<?php echo ucfirst($servicemastername); ?>"></div>
+								<div class="diamond-shape bg-blue-1 rounded-10 mx-auto"><img src="<?php echo base_url(); ?>servicepics/<?php echo $servicemasterwebimage; ?>" alt="<?php echo ucfirst($servicemastername); ?>" style="width:50px !important;"></div>
 								<h5 class="text-weight-semi-bold lh-1"><a href="<?php echo base_url(); ?>services/<?php echo $services->servicemasterseo; ?>" class="text-white"><?php echo ucfirst($servicemastername); ?></a></h5>
 							</li>								
 					<?php
