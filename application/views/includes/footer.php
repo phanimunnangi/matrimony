@@ -268,7 +268,8 @@
 			<!-- Nested Row Ends -->
 			<!-- Social Media Links Starts -->
 				<ul class="list-unstyled list-inline foot-sm-links text-center">
-					<li class="list-inline-item rounded-circle"><a href="#"><img src="<?php echo base_url(); ?>assets/images/icons/sm/whatsapp-icon.png" alt="Whatsapp"></a></li>
+					<li class="list-inline-item rounded-circle">
+					<a href="https://wa.me/919100921282" target="_blank"><img src="<?php echo base_url(); ?>assets/images/icons/sm/whatsapp-icon.png" alt="Whatsapp"></a></li>
 					<li class="list-inline-item rounded-circle"><a href="#"><img src="<?php echo base_url(); ?>assets/images/icons/sm/instagram-icon.png" alt="Instagram"></a></li>
 					<li class="list-inline-item rounded-circle"><a href="#"><img src="<?php echo base_url(); ?>assets/images/icons/sm/fb-icon.png" alt="Facebook"></a></li>
 				</ul>
