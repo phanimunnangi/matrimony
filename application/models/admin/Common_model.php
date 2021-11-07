@@ -282,6 +282,7 @@
 		if($value!=""){
 			$this->db->where($othercolumnname,$value);
 		}		
+		$this->db->where($columnname,$status);
 		// if($value2!=""){
 			// $this->db->where($othercolumnname2,$value2);
 		// }

@@ -231,7 +231,7 @@
 							<h5 class="text-weight-semi-bold hs-1">Our Services</h5>
 							<ul class="list-unstyled foot-links-1 pt-md-3">
 								<li><a href="javascript:void(0);" onClick="registerationform();"  class="text-white">Register Your Profile</a></li>
-								<li><a href="<?php echo base_url(); ?>services-info" class="text-white">Register Your Services</a></li>
+								<li><a href="<?php echo base_url(); ?>services-info" class="text-white">Register Your Business</a></li>
 							</ul>
 						</div>
 					</div>
