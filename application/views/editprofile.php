@@ -1,3 +1,8 @@
+<style>
+.error{
+	color:red;
+}
+</style>
 <!-- Page Banner Starts -->
 		<div class="page-banner">
         <!-- Banner Image Starts -->
@@ -12,89 +17,7 @@
 		</div>
 	<!-- Page Banner Ends -->
 	<!-- Profile Search Starts -->
-		<div class="container px-md-0">
-			<div class="profile-search rounded-5">
-			<!-- Title Starts -->
-				<h3 class="text-weight-semi-bold text-color-brand mb-md-4">Start Your Search</h3>
-			<!-- Title Ends -->
-			<!-- Form Starts -->
-				<form enctype="multipart/form-data" class="form-row align-items-center justify-content-lg-between" id="search_form" name="search_form">
-				<!-- Gender Starts -->
-					<div class="col-auto profile-search-col mr-md-3">
-						<h6 class="text-weight-normal">Gender</h6>
-						<select class="custom-select" id="gender_search" name="gender_search">
-							<option value="">Select</option>
-							<option value="male">Male</option>
-							<option value="female">Female</option>
-						</select>
-					</div>
-				<!-- Gender Ends -->
-				<!-- Age Starts -->
-					<div class="col-auto profile-search-col">
-						<h6 class="text-weight-normal">Age</h6>
-						<select class="custom-select" id="from_search" name="from_search">
-							<?php for($i=18;$i<=50;$i++){ ?>
-								<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
-							<?php } ?>
-						</select>
-					</div>
-					<div class="col-auto profile-search-col">
-						<h6 class="text-weight-normal d-none d-sm-block">&nbsp;</h6>
-						<h6 class="pt-md-2">To</h6>
-					</div>
-					<div class="col-auto profile-search-col">
-						<h6 class="text-weight-normal d-none d-sm-block">&nbsp;</h6>
-						<select class="custom-select" id="to_search" name="to_search">
-							<?php for($i=18;$i<=50;$i++){ ?>
-								<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
-							<?php } ?>
-						</select>
-					</div>
-				<!-- Age Ends -->
-				<!-- Qualification Starts -->
-					<div class="col-auto profile-search-col ml-md-3">
-						<h6 class="text-weight-normal">Professions</h6>
-						<select class="custom-select" id="profession_search" name="profession_search">
-							<option selected value="">Select</option>
-							<?php if(isset($professionslist) && count($professionslist)>0) { foreach($professionslist as $professions){ ?>
-								<option value="<?php echo $professions->professiondisplayid; ?>"><?php echo ucfirst($professions->professionname); ?></option>
-							<?php } } ?>
-						</select>
-					</div>
-				<!-- Qualification Ends -->
-				<!-- Sub Caste Starts -->
-					<div class="col-auto profile-search-col ml-md-3">
-						<h6 class="text-weight-normal">Sub Castes</h6>
-						<select class="custom-select" id="caste_search" name="caste_search">
-							<option value="">Select </option>
-							<?php if(isset($subcasteslist) && count($subcasteslist)>0) { foreach($subcasteslist as $subcaste){ ?>
-								<option value="<?php echo $subcaste->subcastedisplayid; ?>"><?php echo ucfirst($subcaste->subcastename); ?></option>
-							<?php } } ?>
-						</select>
-					</div>
-				<!-- Sub Caste Ends -->
-				<!-- OR Starts -->
-					<div class="col-auto profile-search-col">
-						<h6 class="text-weight-normal d-none d-sm-block">&nbsp;</h6>
-						<h6 class="text-weight-semi-bold text-color-brand pt-2">OR</h6>
-					</div>
-				<!-- OR Ends -->
-				<!-- Register ID Starts -->
-					<div class="col-auto profile-search-col mr-md-3">
-						<h6 class="text-weight-normal">Register ID</h6>
-						<input type="text" class="form-control" id="profile_id_search">
-					</div>
-				<!-- Register ID Ends -->
-				<!-- Submit Button Starts -->
-					<div class="col-auto profile-search-col">
-						<h6 class="text-weight-normal d-none d-sm-block">&nbsp;</h6>
-						<button type="button" onClick="searchtoprofilesfun();" class="btn btn-main btn-profile-search animation">Search</button>
-					</div>
-				<!-- Submit Button Ends -->
-				</form>
-			<!-- Form Ends -->
-			</div>
-		</div>
+		<?php $this->load->view('search');?>
 	<!-- Profile Search Ends -->
 	<!-- Main Container Starts -->
 		<div class="main-container container px-md-0">
@@ -116,6 +39,17 @@
 								<div class="form-group">
 									<input type="text" required class="form-control animation rounded-2" id="user_display_name" name="user_display_name" placeholder="Full name" value="<?php echo $userdetails->user_display_name; ?>">
 									<span id="error_user_display_name" style="color:red"></span>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-group">
+									<input type="text" required class="form-control animation rounded-2" id="user_email" name="user_email" placeholder="Email" value="<?php echo $userdetails->user_display_name; ?>">
+									<span id="error_user_email" style="color:red"></span>
+								</div>
+							</div><div class="col-12">
+								<div class="form-group">
+									<input type="text" required class="form-control animation rounded-2" id="user_mobile" name="user_mobile" placeholder="Phone" value="<?php echo $userdetails->user_display_name; ?>">
+									<span id="error_user_phone" style="color:red"></span>
 								</div>
 							</div>
 						<!-- Fullname Ends -->
@@ -639,7 +573,6 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
 									<?php echo $userdetails->urd_primaryconactnumber; ?>
-									<input value="<?php echo $userdetails->urd_primaryconactnumber; ?>" type="hidden" name="user_mobile">
 									<?php 
 										$caipcheckedd = 0;
 										if($userdetails->urd_primarycontactnumber_is_published==1){
@@ -654,7 +587,6 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
 									<?php echo $userdetails->urd_email; ?>
-									<input type="hidden" name="user_email" value="<?php echo $userdetails->urd_email; ?>">
 									<?php 
 										$emailChecked = 0;
 										if($userdetails->urd_email_is_published==1){
@@ -1128,7 +1060,7 @@
 							  <span class="text-big-2">  I declare that the particulars furnished above are true to the best of my knowledge and agree that our familiy responsibility to make enquiry about the other party before the alliance is settled.</span>
 					<!-- Submit Button Starts -->
 						<p class="mt-3" id="submit_btn">
-							<button type="button" class="btn btn-main btn-style-2 text-weight-semi-bold text-big-2 animation rounded-2" onClick="editformvalidate();">Submit Form</button>
+							<button type="submit" class="btn btn-main btn-style-2 text-weight-semi-bold text-big-2 animation rounded-2" onClick="editformvalidate();">Submit Form</button>
 						</p>
 						<p class="mt-3" id="process_btn" style="display:none;">
 							<button type="button" class="btn btn-main btn-style-2 text-weight-semi-bold text-big-2 animation rounded-2">Process</button>
@@ -1142,11 +1074,13 @@
 		<!-- Profile Form Ends -->
 		</div>
 	<!-- Main Container Ends -->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js" type="text/javascript"></script>
 <script>
 	function viewprofile(){
 		$("#user_image_modal").modal('show');
 	}
 	function editformvalidate(){
+		$("#edit_profile").validate();
 		var ddyear  = $("#upi_dateofbirth_year").val();
 		var ddmonth = $("#upi_dateofbirth_month").val();
 		var dddate  = $("#upi_dateofbirth_date").val();
@@ -1185,7 +1119,6 @@
 				} 
 			} 
 		} 
-		
 		
 		$("#edit_profile").submit();
 	}

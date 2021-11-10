@@ -563,13 +563,18 @@
 			}			
 		}
 		public function saveuserprofiledata(){
+			
+			
 			if(isset($_POST['user_email']) && $_POST['user_email']!="" && isset($_POST['user_mobile']) && $_POST['user_mobile']!=""){
+				print_r($_POST);	die;
 				// echo "<pre>";print_r($_FILES);
 				// echo "<pre>";print_r($_POST);exit;
 				// ini_set('display_errors', 1);
 				// ini_set('display_startup_errors', 1);
 				// error_reporting(E_ALL);
-				
+				if($_POST['user_email'] == ''){
+					
+				}
 				$user_email = $_POST['user_email'];
 				$user_mobile = $_POST['user_mobile'];
 				// echo "<pre>";print_r($_POST);exit;	
@@ -1267,22 +1272,22 @@
 			$this->data['legs'] = $this->Common_model->get_data_status_without_delete_records('ma_legs','legstatus',1,'legid','ASC');
 			$this->data['areaslist'] = $this->Common_model->get_data_status_without_delete_records('ma_areas','areastatus',1,'areadisplayid','DESC');
 			$this->data['maserviceslist'] = $this->Common_model->get_data_status_without_delete_records('ma_servicemaster','servicemasterstatus',1,'servicemasterid','DESC');
-			if(isset($_SESSION['user_registeredid']) && $_SESSION['user_registeredid']!=""){
-				$userRegisteredid = $_SESSION['user_registeredid'];
-				if($userRegisteredid!=""){
+			//if(isset($_SESSION['user_registeredid']) && $_SESSION['user_registeredid']!=""){
+			//	$userRegisteredid = $_SESSION['user_registeredid'];
+				//if($userRegisteredid!=""){
 					$userinfo=$this->Common_model->getUserDetails('ma_users',$userRegisteredid,'user_registeredid',1,'user_status');
 					if(isset($userinfo->user_id) && $userinfo->user_id!=""){
 						$this->data['userdetails'] = $userinfo;							
 						$this->front_view('editprofile');
 					}else{
-						redirect(base_url());
+						$this->front_view('editprofile');
 					}
-				}else{
-					redirect(base_url());
-				}
-			}else{
+				//}else{
+				//	redirect(base_url());
+				//}
+			/*}else{
 				redirect(base_url());
-			}			
+			}	*/		
 		}
 		public function userrefferachecking(){
 			if(isset($_POST['user_referal_code']) && $_POST['user_referal_code']!=""){

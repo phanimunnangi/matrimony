@@ -52,6 +52,7 @@
 		<link href="<?php echo base_url(); ?>assets/css/responsive.css?refresh=<?php echo time(); ?>" rel="stylesheet">
 		<!-- Template JS Files -->
 		<script src="<?php echo base_url(); ?>assets/js/jquery-3.4.1.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
 		<script src="<?php echo base_url(); ?>assets/js/popper.min.js"></script>
 		<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 		<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
@@ -109,7 +110,7 @@
 					<?php }else{ ?>
 					<a href="<?php echo base_url(); ?>editprofile" class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Edit Profile</a>
 					<?php } }else{ ?>
-					<a href="javascript:void(0);" onClick="registerationform();"  class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Register your profile</a>&nbsp;&nbsp;
+					<a href="<?php echo base_url(); ?>editprofile"   class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Register your profile</a>&nbsp;&nbsp;
 				<?php } ?>
 			<!-- Button Ends -->
 			</div>
