@@ -17,13 +17,13 @@
 		</div>
 	<!-- Page Banner Ends -->
 	<!-- Profile Search Starts -->
-		<?php $this->load->view('search');?>
+		<?php // $this->load->view('search');?>
 	<!-- Profile Search Ends -->
 	<!-- Main Container Starts -->
 		<div class="main-container container px-md-0">
 		<!-- Profile Form Starts -->
 			<form class="profile-form" method="POST" name="edit_profile" id="edit_profile" enctype="multipart/form-data" action="<?php echo base_url();?>User/saveuserprofiledata">
-				<input type="hidden" id="user_id" name="user_id" value="<?php echo $userdetails->user_id; ?>">
+				<input type="hidden" id="user_id" name="user_id" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->user_id; ?>">
 			<!-- Nested Row Starts -->
 				<div class="row">
 				<!-- Personal Details Starts -->
@@ -37,18 +37,18 @@
 						<!-- Fullname Starts -->
 							<div class="col-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="user_display_name" name="user_display_name" placeholder="Full name" value="<?php echo $userdetails->user_display_name; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="user_display_name" name="user_display_name" placeholder="Full name" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->user_display_name; ?>">
 									<span id="error_user_display_name" style="color:red"></span>
 								</div>
 							</div>
 							<div class="col-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="user_email" name="user_email" placeholder="Email" value="<?php echo $userdetails->user_display_name; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="user_email" name="user_email" placeholder="Email" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->user_display_name; ?>">
 									<span id="error_user_email" style="color:red"></span>
 								</div>
 							</div><div class="col-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="user_mobile" name="user_mobile" placeholder="Phone" value="<?php echo $userdetails->user_display_name; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="user_mobile" name="user_mobile" placeholder="Phone" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->user_display_name; ?>">
 									<span id="error_user_phone" style="color:red"></span>
 								</div>
 							</div>
@@ -56,7 +56,7 @@
 						<!-- Father Name Starts -->
 							<!--<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="upd_fathername" name="upd_fathername" placeholder="Father Name" value="<?php echo $userdetails->upd_fathername; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="upd_fathername" name="upd_fathername" placeholder="Father Name" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_fathername; ?>">
 									<span id="error_upd_fathername" style="color:red"></span>
 								</div>
 							</div>-->
@@ -64,21 +64,40 @@
 						<!-- Mother Name Starts -->
 							<!--<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="upd_mothername" name="upd_mothername" placeholder="Mother Name" value="<?php echo $userdetails->upd_mothername; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="upd_mothername" name="upd_mothername" placeholder="Mother Name" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_mothername; ?>">
 									<span id="error_upd_mothername" style="color:red"></span>
 								</div>
 							</div>-->
 						<!-- Mother Name Ends -->
+						<div class="col-6">
+						<div class="form-group">
+							<label class="text-weight-medium">Gender</label>
+							<select id="user_gender" name="user_gender" class="custom-select alt-1">
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+							</select>
+						</div>
+						</div>
+						<div class="col-6">
+						<div class="form-group">
+							<label class="text-weight-medium">Create Profile For</label>
+							<select id="user_create_profile_for" name="user_create_profile_for" class="custom-select alt-1">
+								<option value="self">Self</option>
+								<option value="son">Son</option>
+								<option value="daughter">Daughter</option>
+							</select>
+						</div>
+					</div>
 						<!-- Fullname Starts -->
 							<div class="col-6">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="upd_surname" name="upd_surname" placeholder="Surname" value="<?php echo $userdetails->upd_surname; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="upd_surname" name="upd_surname" placeholder="Surname" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_surname; ?>">
 									<span id="error_upd_surname" style="color:red"></span>
 								</div>
 							</div>
 							<div class="col-6">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="upi_birthplace" name="upi_birthplace" placeholder="Place of Birth" value="<?php echo $userdetails->upi_birthplace; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="upi_birthplace" name="upi_birthplace" placeholder="Place of Birth" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upi_birthplace; ?>">
 									<span id="error_upi_birthplace" style="color:red"></span>
 								</div>
 							</div>
@@ -86,7 +105,7 @@
 						<!-- Gothram Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input value="<?php echo $userdetails->upi_gothram; ?>" type="text" id="upi_gothram" name="upi_gothram" class="form-control animation rounded-2" placeholder="Gothram"/>
+									<input value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upi_gothram; ?>" type="text" id="upi_gothram" name="upi_gothram" class="form-control animation rounded-2" placeholder="Gothram"/>
 								</div>
 							</div>
 						<!-- Gothram Ends -->
@@ -97,7 +116,7 @@
 										<option value="">Select a Caste</option>
 										<?php if(isset($subcasteslist) && !empty($subcasteslist) && count($subcasteslist)>0){ foreach($subcasteslist as $caste){ 
 											$selectedcaste= "";
-											if($caste->subcastedisplayid==$userdetails->upi_caste){
+											if(isset($userdetails->upi_caste) && $caste->subcastedisplayid==$userdetails->upi_caste){
 												$selectedcaste= "selected";
 											}												
 										?>
@@ -114,7 +133,7 @@
 								$dobyear = "";
 								$dobmonth = "";
 								$dobdate = "";
-								if($userdetails->upi_dateofbirth!=''){
+								if(isset($userdetails) && $userdetails->upi_dateofbirth!=''){
 									$dob = $userdetails->upi_dateofbirth;
 									$datexplode = explode('-',$dob);
 									$dobyear = $datexplode[0];
@@ -163,8 +182,8 @@
 									</div>
 								</div>
 							</div>
-							<input type="hidden" id="upi_dateofbirth" name="upi_dateofbirth" value="<?php echo $userdetails->upi_dateofbirth;?>">
-							<input type="hidden" id="upi_age" name="upi_age" value="<?php echo $userdetails->upi_age;?>">
+							<input type="hidden" id="upi_dateofbirth" name="upi_dateofbirth" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upi_dateofbirth;?>">
+							<input type="hidden" id="upi_age" name="upi_age" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upi_age;?>">
 						<!-- Date of Birth Ends -->
 						<!-- Time of Birth Starts -->
 							<div class="col-md-6 col-sm-12">
@@ -172,8 +191,8 @@
 									<label class="text-weight-medium">Time of Birth</label>
 									<div class="d-flex justify-content-between">
 										<?php 
-											$dataExplode = "";
-											if($userdetails->upi_birth_timings!=""){
+											$dataExplode = array();
+											if(isset($userdetails->upi_birth_timings) && $userdetails->upi_birth_timings!=""){
 												$dataExplode = explode('-',$userdetails->upi_birth_timings);
 											}														
 										?>
@@ -181,7 +200,7 @@
 											<?php for($i=0;$i<=23;$i++){ 
 												$hpadding = str_pad($i, 2, "0", STR_PAD_LEFT);
 												$selectedrow="";
-												if($dataExplode[0]==$i){
+												if(isset($userdetails) && $dataExplode[0]==$i){
 													$selectedrow="selected";
 												}
 											?>
@@ -192,7 +211,7 @@
 											<?php for($j=0;$j<=59;$j++){ 	
 												$gpadding = str_pad($j, 2, "0", STR_PAD_LEFT);
 												$selected2row="";
-												if($dataExplode[1]==$j){
+												if(isset($userdetails) && $dataExplode[1]==$j){
 													$selected2row="selected";
 												}
 											?>
@@ -203,7 +222,7 @@
 											<?php for($k=0;$k<=59;$k++){ 
 												$kpadding = str_pad($k, 2, "0", STR_PAD_LEFT);
 												$selected3row="";
-												if($dataExplode[2]==$k){
+												if(isset($userdetails) &&  $dataExplode[2]==$k){
 													$selected3row="selected";
 												}
 											?>
@@ -222,7 +241,7 @@
 											<option value="star">Star</option>
 											<?php if(isset($starslist) && !empty($starslist) && count($starslist)>0){ foreach($starslist as $stars){ 
 												$selectedstar= "";
-												if($stars->stardisplayid==$userdetails->upi_star){
+												if(isset($userdetails) &&  $stars->stardisplayid==$userdetails->upi_star){
 													$selectedstar= "selected";
 												}			
 											?>
@@ -230,10 +249,10 @@
 											<?php } } ?>
 										</select>
 										<select name="upi_leg" id="upi_leg" class="custom-select alt-1 mx-2">
-											<option value="leg">Leg</option>
+											<option value="leg">Paadam</option>
 											<?php if(isset($legs) && !empty($legs) && count($legs)>0){ foreach($legs as $leg){ 
 												$selectedleg= "";
-												if($leg->legdisplayid==$userdetails->upi_leg){
+												if(isset($userdetails) &&  $leg->legdisplayid==$userdetails->upi_leg){
 													$selectedleg= "selected";
 												}
 											?>
@@ -244,7 +263,7 @@
 											<option value="raasi">Raasi</option>
 											<?php if(isset($raasislist) && !empty($raasislist) && count($raasislist)>0){ foreach($raasislist as $raasi){ 
 												$selectedrassi= "";
-												if($raasi->raasidisplayid==$userdetails->upi_rassi){
+												if(isset($userdetails) && $raasi->raasidisplayid==$userdetails->upi_rassi){
 													$selectedrassi= "selected";
 												}
 											?>
@@ -265,11 +284,11 @@
 												$selectNo    = "";
 												$selectYes   = "";
 												$selectNoIdea= "";
-												if($userdetails->upi_manglik_status=="No"){
+												if(isset($userdetails) && $userdetails->upi_manglik_status=="No"){
 													$selectNo = "selected";
-												}else if($userdetails->upi_manglik_status=="Yes"){
+												}else if(isset($userdetails) && $userdetails->upi_manglik_status=="Yes"){
 													$selectYes = "selected";
-												}else if($userdetails->upi_manglik_status=="No Idea"){
+												}else if(isset($userdetails) && $userdetails->upi_manglik_status=="No Idea"){
 													$selectNoIdea = "selected";
 												}
 											
@@ -282,7 +301,7 @@
 											<option value="height">Height</option>
 											<?php if(isset($heightslist) && !empty($heightslist) && count($heightslist)>0){ foreach($heightslist as $height){ 
 												$selectedheight= "";
-												if($height->heightvalue==$userdetails->upi_height){
+												if(isset($userdetails) && $height->heightvalue==$userdetails->upi_height){
 													$selectedheight= "selected";
 												}
 											?>
@@ -303,13 +322,13 @@
 											$selectedDark    = "";
 											$selectedWhitish = "";
 											$selectedMedium  = "";
-											if($userdetails->upi_complexion=='Fair'){
+											if(isset($userdetails) && $userdetails->upi_complexion=='Fair'){
 												$selectedFair = "selected";
-											}else if($userdetails->upi_complexion=='Dark'){
+											}else if(isset($userdetails) && $userdetails->upi_complexion=='Dark'){
 												$selectedDark = "selected";
-											}else if($userdetails->upi_complexion=='Whitish'){
+											}else if(isset($userdetails) && $userdetails->upi_complexion=='Whitish'){
 												$selectedWhitish = "selected";
-											}else if($userdetails->upi_complexion=='Medium'){
+											}else if(isset($userdetails) && $userdetails->upi_complexion=='Medium'){
 												$selectedMedium = "selected";
 											}
 										?>
@@ -332,21 +351,21 @@
 											$selectedSeperated = "";
 											$selectedDivorced  = "";
 											$selectedWidow     = "";
-											$selectedwidower   = "";
+											$selectedWidower   = "";
 											$selectedAwaitingDivorced = "";
-											if($userdetails->upi_maritalstatus=='Unmarried'){
+											if(isset($userdetails) && $userdetails->upi_maritalstatus=='Unmarried'){
 												$selectedUnmarried = "selected";
-											}else if($userdetails->upi_maritalstatus=='Married'){
+											}else if(isset($userdetails) && $userdetails->upi_maritalstatus=='Married'){
 												$selectedMarried = "selected";
-											}else if($userdetails->upi_maritalstatus=='Seperated'){
+											}else if(isset($userdetails) && $userdetails->upi_maritalstatus=='Seperated'){
 												$selectedSeperated = "selected";
-											}else if($userdetails->upi_maritalstatus=='Divorced'){
+											}else if(isset($userdetails) && $userdetails->upi_maritalstatus=='Divorced'){
 												$selectedDivorced = "selected";
-											}else if($userdetails->upi_maritalstatus=='Awaiting Divorced'){
+											}else if(isset($userdetails) && $userdetails->upi_maritalstatus=='Awaiting Divorced'){
 												$selectedAwaitingDivorced = "selected";
-											}else if($userdetails->upi_maritalstatus=='Widow'){
+											}else if(isset($userdetails) && $userdetails->upi_maritalstatus=='Widow'){
 												$selectedWidow = "selected";
-											}else if($userdetails->upi_maritalstatus=='widower'){
+											}else if(isset($userdetails) && $userdetails->upi_maritalstatus=='widower'){
 												$selectedWidower = "selected";
 											}
 										?>
@@ -369,9 +388,9 @@
 										<?php
 											$selectedno = "";
 											$selectedyes = "";
-											if($userdetails->upi_physicaldisability=='No'){
+											if(isset($userdetails) && $userdetails->upi_physicaldisability=='No'){
 												$selectedno = "selected";
-											}else if($userdetails->upi_physicaldisability=='Yes'){
+											}else if(isset($userdetails) && $userdetails->upi_physicaldisability=='Yes'){
 												$selectedyes = "selected";
 											}
 										?>										
@@ -384,7 +403,7 @@
 						<!-- NRI Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input value="<?php echo $userdetails->upi_nri_living_country_name; ?>" type="text" name="upi_nri_living_country_name" id="upi_nri_living_country_name" class="form-control animation rounded-2" placeholder="NRI living country name"/>
+									<input value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upi_nri_living_country_name; ?>" type="text" name="upi_nri_living_country_name" id="upi_nri_living_country_name" class="form-control animation rounded-2" placeholder="NRI living country name"/>
 								</div>
 							</div>
 						<!-- NRI Ends -->
@@ -395,9 +414,9 @@
 										<?php
 											$selectedno = "";
 											$selectedyes = "";
-											if($userdetails->upi_will_to_marry_widow=='No'){
+											if(isset($userdetails) && $userdetails->upi_will_to_marry_widow=='No'){
 												$selectedno = "selected";
-											}else if($userdetails->upi_will_to_marry_widow=='Yes'){
+											}else if(isset($userdetails) && $userdetails->upi_will_to_marry_widow=='Yes'){
 												$selectedyes = "selected";
 											}
 										?>										
@@ -413,9 +432,9 @@
 										<?php
 											$selectedno = "";
 											$selectedyes = "";
-											if($userdetails->upi_livingtogether=='No'){
+											if(isset($userdetails) && $userdetails->upi_livingtogether=='No'){
 												$selectedno = "selected";
-											}else if($userdetails->upi_livingtogether=='Yes'){
+											}else if(isset($userdetails) && $userdetails->upi_livingtogether=='Yes'){
 												$selectedyes = "selected";
 											}
 										?>										
@@ -431,9 +450,9 @@
 										<?php
 											$selectedno = "";
 											$selectedyes = "";
-											if($userdetails->upi_have_childerns=='No'){
+											if(isset($userdetails) && $userdetails->upi_have_childerns=='No'){
 												$selectedno = "selected";
-											}else if($userdetails->upi_have_childerns=='Yes'){
+											}else if(isset($userdetails) && $userdetails->upi_have_childerns=='Yes'){
 												$selectedyes = "selected";
 											}
 										?>										
@@ -448,7 +467,7 @@
 										<option value="">Noof childerns</option>
 										<?php for($a=0;$a<=10;$a++){
 											$selected = "";
-											if($userdetails->upi_noofchilderns==$a){
+											if(isset($userdetails) && $userdetails->upi_noofchilderns==$a){
 												$selected = "selected";
 											}
 											$apadding = str_pad($a, 2, "0", STR_PAD_LEFT);
@@ -472,7 +491,7 @@
 						<!-- Educational Qualifications Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" id="ued_education_qualifications" name="ued_education_qualifications" class="form-control animation rounded-2" placeholder="Education Qualifications" value="<?php echo $userdetails->ued_education_qualifications; ?>"/>
+									<input type="text" id="ued_education_qualifications" name="ued_education_qualifications" class="form-control animation rounded-2" placeholder="Education Qualifications" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->ued_education_qualifications; ?>"/>
 								</div>
 							</div>
 						<!-- Educational Qualifications Ends -->						
@@ -483,7 +502,7 @@
 										<option value="">Select a Profession</option>
 										<?php if(isset($professionslist) && !empty($professionslist) && count($professionslist)>0){ foreach($professionslist as $profession){ 
 											$eduSelected = "";
-											if($profession->professiondisplayid==$userdetails->ued_profession_id){
+											if(isset($userdetails) && $profession->professiondisplayid==$userdetails->ued_profession_id){
 												$eduSelected = "selected";
 											}															
 										?>
@@ -497,26 +516,26 @@
 						<!-- Place Of Work Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" required id="ued_place_work" name="ued_place_work" class="form-control animation rounded-2" placeholder="Place Of Work" value="<?php echo $userdetails->ued_place_work; ?>"/>
+									<input type="text" required id="ued_place_work" name="ued_place_work" class="form-control animation rounded-2" placeholder="Place Of Work" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->ued_place_work; ?>"/>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" id="ued_company_name" name="ued_company_name" class="form-control animation rounded-2" placeholder="Company name" value="<?php echo $userdetails->ued_company_name; ?>"/>
+									<input type="text" id="ued_company_name" name="ued_company_name" class="form-control animation rounded-2" placeholder="Company name" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->ued_company_name; ?>"/>
 								</div>
 							</div>
 						<!-- Place Of Work Ends -->
 						<!-- Monthly Income Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" id="ued_income" name="ued_income" class="form-control animation rounded-2" placeholder="Monthly Income" value="<?php echo $userdetails->ued_income; ?>"/>
+									<input type="text" id="ued_income" name="ued_income" class="form-control animation rounded-2" placeholder="Monthly Income" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->ued_income; ?>"/>
 								</div>
 							</div>
 						<!-- Monthly Income Ends -->
 						<!-- Other Source of Income Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input value="<?php echo $userdetails->ued_othersourceofincome; ?>" type="text" id="ued_othersourceofincome" name="ued_othersourceofincome" class="form-control animation rounded-2" placeholder="Other Source of Income"/>
+									<input value="<?php if(isset($userdetails) > 0 ) echo $userdetails->ued_othersourceofincome; ?>" type="text" id="ued_othersourceofincome" name="ued_othersourceofincome" class="form-control animation rounded-2" placeholder="Other Source of Income"/>
 								</div>
 							</div>
 						<!-- Other Source of Income Ends -->
@@ -530,7 +549,7 @@
 						<!-- Native District Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="urd_native_district" name="urd_native_district" placeholder="Native District" value="<?php echo $userdetails->urd_native_district; ?>">								
+									<input type="text" required class="form-control animation rounded-2" id="urd_native_district" name="urd_native_district" placeholder="Native District" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->urd_native_district; ?>">								
 									<span id="error_urd_native_district" style="color:red"></span>
 								</div>
 							</div>
@@ -541,9 +560,9 @@
 									<?php
 										$selownhouse = "";
 										$selrenthouse = "";
-										if($userdetails->urd_communication_resident_type=='Own House'){
+										if(isset($userdetails) && $userdetails->urd_communication_resident_type=='Own House'){
 											$selownhouse = "selected";
-										}else if($userdetails->urd_communication_resident_type=='Rent House'){
+										}else if(isset($userdetails) && $userdetails->urd_communication_resident_type=='Rent House'){
 											$selrenthouse = "selected";
 										}
 									?>
@@ -558,10 +577,10 @@
 						<!-- Present Address Starts -->
 							<div class="col-sm-12">
 								<div class="form-group">
-									<textarea rows="4" required cols="50" class="form-control animation rounded-2" id="urd_communication_address" name="urd_communication_address" placeholder="Present Address"><?php echo $userdetails->urd_communication_address; ?></textarea>
+									<textarea rows="4" required cols="50" class="form-control animation rounded-2" id="urd_communication_address" name="urd_communication_address" placeholder="Present Address"><?php if(isset($userdetails) > 0 ) echo $userdetails->urd_communication_address; ?></textarea>
 									<?php
 										$caipchecked = 0;
-										if($userdetails->urd_communication_address_is_published==1){
+										if(isset($userdetails) && $userdetails->urd_communication_address_is_published==1){
 											$caipchecked = 1;
 										}
 									?>
@@ -572,10 +591,10 @@
 						<!-- Phone Number Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<?php echo $userdetails->urd_primaryconactnumber; ?>
+									<?php if(isset($userdetails) > 0 ) echo $userdetails->urd_primaryconactnumber; ?>
 									<?php 
 										$caipcheckedd = 0;
-										if($userdetails->urd_primarycontactnumber_is_published==1){
+										if(isset($userdetails) && $userdetails->urd_primarycontactnumber_is_published==1){
 											$caipcheckedd = 1;
 										}														
 									?>
@@ -586,10 +605,10 @@
 						<!-- Email Address Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<?php echo $userdetails->urd_email; ?>
+									<?php if(isset($userdetails) > 0 ) echo $userdetails->urd_email; ?>
 									<?php 
 										$emailChecked = 0;
-										if($userdetails->urd_email_is_published==1){
+										if(isset($userdetails) && $userdetails->urd_email_is_published==1){
 											$emailChecked = 1;
 										}
 									
@@ -601,10 +620,10 @@
 						<!-- Phone Number Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="number" value="<?php echo $userdetails->urd_contactnumber; ?>" class="form-control" id="urd_contactnumber" name="urd_contactnumber" placeholder="Secondary Phone">
+									<input type="number" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->urd_contactnumber; ?>" class="form-control" id="urd_contactnumber" name="urd_contactnumber" placeholder="Secondary Phone">
 									<?php 
 										$pcnChecked = 0;
-										if($userdetails->urd_contactnumber_is_published==1){
+										if(isset($userdetails) && $userdetails->urd_contactnumber_is_published==1){
 											$pcnChecked = 1;
 										}														
 									?>
@@ -616,7 +635,7 @@
 							<?php
 								$dataone="";
 								$datatwo="";
-								if($userdetails->urd_landlinenumber!=""){
+								if(isset($userdetails) && $userdetails->urd_landlinenumber!=""){
 									$explodeData = explode('-',$userdetails->urd_landlinenumber);
 									$dataone = $explodeData[0];
 									$datatwo = $explodeData[1];
@@ -633,7 +652,7 @@
 									<input type="number" value="<?php echo $datatwo; ?>" class="form-control" id="urd_landlinenumber" name="urd_landlinenumber" placeholder="CodeEg:040">
 									<?php 
 										$pcnChecked = 0;
-										if($userdetails->urd_landinenumber_is_published==1){
+										if(isset($userdetails) && $userdetails->urd_landinenumber_is_published==1){
 											$pcnChecked = 1;
 										}														
 									?>
@@ -652,12 +671,12 @@
 					<!-- Heading Ends -->
 					<!-- Fields Starts -->
 						<div class="row">
-							<input type="hidden" id="upd_elder_brothers" name="upd_elder_brothers" value="<?php echo $userdetails->upd_elder_brothers; ?>">
-							<input type="hidden" id="upd_elder_sisters" name="upd_elder_sisters" value="<?php echo $userdetails->upd_elder_sisters; ?>">
+							<input type="hidden" id="upd_elder_brothers" name="upd_elder_brothers" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_elder_brothers; ?>">
+							<input type="hidden" id="upd_elder_sisters" name="upd_elder_sisters" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_elder_sisters; ?>">
 							<!-- Father Name Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="upd_fathername" name="upd_fathername" placeholder="Father Name" value="<?php echo $userdetails->upd_fathername; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="upd_fathername" name="upd_fathername" placeholder="Father Name" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_fathername; ?>">
 									<span id="error_upd_fathername" style="color:red"></span>
 								</div>
 							</div>
@@ -665,7 +684,7 @@
 						<!-- Qualification & Profession Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" id="upd_father_profession" name="upd_father_profession" class="form-control" value="<?php echo $userdetails->upd_father_profession; ?>">
+									<input type="text" id="upd_father_profession" name="upd_father_profession" class="form-control" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_father_profession; ?>">
 									<span id="error_upd_father_profession" style="color:red"></span>
 								</div>
 							</div>
@@ -673,7 +692,7 @@
 						<!-- Mother Name Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" required class="form-control animation rounded-2" id="upd_mothername" name="upd_mothername" placeholder="Mother Name" value="<?php echo $userdetails->upd_mothername; ?>">
+									<input type="text" required class="form-control animation rounded-2" id="upd_mothername" name="upd_mothername" placeholder="Mother Name" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_mothername; ?>">
 									<span id="error_upd_mothername" style="color:red"></span>
 								</div>
 							</div>
@@ -681,7 +700,7 @@
 						<!-- Qualification & Profession Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input type="text" id="upd_mother_profession" name="upd_mother_profession" value="<?php echo $userdetails->upd_mother_profession; ?>" class="form-control">
+									<input type="text" id="upd_mother_profession" name="upd_mother_profession" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->upd_mother_profession; ?>" class="form-control">
 									<span id="error_upd_mother_profession" style="color:red"></span>	
 								</div>
 							</div>
@@ -693,7 +712,7 @@
 										<option value="">No of Brothers</option>
 										<?php for($i=0;$i<=5;$i++) { 
 											$selected = "";
-											if($userdetails->upd_noofbrothers==$i){
+											if(isset($userdetails) && $userdetails->upd_noofbrothers==$i){
 												$selected = "selected";
 											}
 											$brpadding = str_pad($i, 2, "0", STR_PAD_LEFT);
@@ -706,7 +725,7 @@
 							<!-- Brothers Ends -->
 							<?php 
 								$styledisplaynone ="display:none;";
-								if($userdetails->upd_noofbrothers==0){
+								if(isset($userdetails) && $userdetails->upd_noofbrothers==0){
 									$styledisplaynone ="display:none;";
 								}else{
 									$styledisplaynone ="";
@@ -716,7 +735,7 @@
 								<span id="brothers_div">
 									<div class="col-md-12">
 										<div class="row">
-											<?php $updNoofbrothers = $userdetails->upd_noofbrothers; 
+											<?php $updNoofbrothers = (isset($userdetails))?$userdetails->upd_noofbrothers:''; 
 											for($k=1;$k<=$updNoofbrothers;$k++){ ?>										
 												<div class="col-md-6 col-sm-12">
 													<div class="form-group">
@@ -726,9 +745,9 @@
 															$elderSelected ="";
 															$youngerSelected ="";
 															$nameeee = "upd_elder_younger".$k;
-															if($userdetails->$nameeee=='Elder'){
+															if(isset($userdetails) && $userdetails->$nameeee=='Elder'){
 																$elderSelected ="selected";
-															}else if($userdetails->$nameeee=='Younger'){
+															}else if(isset($userdetails) && $userdetails->$nameeee=='Younger'){
 																$youngerSelected ="selected";
 															}
 														?>
@@ -744,9 +763,9 @@
 																$unmarriedSelected ="";
 																$marriedSelected ="";
 																$nameee = "upd_marital_status".$k;
-																if($userdetails->$nameee=='Unmarried'){
+																if(isset($userdetails) && $userdetails->$nameee=='Unmarried'){
 																	$unmarriedSelected ="selected";
-																}else if($userdetails->$nameee=='Married'){
+																}else if(isset($userdetails) && $userdetails->$nameee=='Married'){
 																	$marriedSelected ="selected";
 																}
 															?>
@@ -769,7 +788,7 @@
 										<?php 
 											for($j=0;$j<=5;$j++) { 
 												$selected = "";
-												if($userdetails->upd_noofsisters==$j){
+												if(isset($userdetails) && $userdetails->upd_noofsisters==$j){
 													$selected = "selected";
 												}
 												$sispadding = str_pad($j, 2, "0", STR_PAD_LEFT); ?>
@@ -780,7 +799,7 @@
 							</div>
 							<?php 
 								$sstyledisplaynone ="display:none;";
-								if($userdetails->upd_noofsisters==0){
+								if(isset($userdetails) && $userdetails->upd_noofsisters==0){
 									$sstyledisplaynone ="display:none;";
 								}else{
 									$sstyledisplaynone ="";
@@ -790,7 +809,7 @@
 								<span id="sisterss_div">
 									<div class="col-md-12">
 										<div class="row">
-											<?php $updNoofsisters = $userdetails->upd_noofsisters; 
+											<?php $updNoofsisters = (isset($userdetails))?$userdetails->upd_noofsisters:''; 
 											for($l=1;$l<=$updNoofsisters;$l++){ ?>
 													<input type="hidden" id="upd_sistername<?php echo $l; ?>" name="upd_sistername<?php echo $l; ?>" value="">
 													<div class="col-md-6 col-sm-12">
@@ -800,9 +819,9 @@
 																$elderSelected ="";
 																$youngerSelected ="";
 																$namee = "upd_sister_elder_younger".$l;
-																if($userdetails->$namee=='Elder'){
+																if(isset($userdetails) && $userdetails->$namee=='Elder'){
 																	$elderSelected ="selected";
-																}else if($userdetails->$namee=='Younger'){
+																}else if(isset($userdetails) && $userdetails->$namee=='Younger'){
 																	$youngerSelected ="selected";
 																}
 															?>
@@ -818,9 +837,9 @@
 																	$unmarriedSelected ="";
 																	$marriedSelected ="";
 																	$name = "upd_sister_marital_status".$l;
-																	if($userdetails->$name=='Unmarried'){
+																	if(isset($userdetails) && $userdetails->$name=='Unmarried'){
 																		$unmarriedSelected ="selected";
-																	}else if($userdetails->$name=='Married'){
+																	}else if(isset($userdetails) && $userdetails->$name=='Married'){
 																		$marriedSelected ="selected";
 																	}
 																?>
@@ -856,7 +875,7 @@
 											<?php 
 												for($i=18;$i<=50;$i++){ 
 													$eselected = "";
-													if($userdetails->uppd_from_age==$i){
+													if(isset($userdetails) && $userdetails->uppd_from_age==$i){
 														$eselected = "selected";
 													}
 											?>
@@ -867,7 +886,7 @@
 											<?php 
 												for($z=18;$z<=50;$z++){ 
 													$esselected = "";
-													if($userdetails->uppd_to_age==$z){
+													if(isset($userdetails) && $userdetails->uppd_to_age==$z){
 														$esselected = "selected";
 													}											
 											?>
@@ -887,7 +906,7 @@
 											<option value="">From</option>
 											<?php if(isset($heightslist) && !empty($heightslist) && count($heightslist)>0){ foreach($heightslist as $height){ 
 												$selectedheight= "";
-												if($height->heightvalue==$userdetails->uppd_from_height){
+												if(isset($userdetails) &&  $height->heightvalue==$userdetails->uppd_from_height){
 													$selectedheight= "selected";
 												}
 											?>
@@ -898,7 +917,7 @@
 											<option value="">To</option>
 											<?php if(isset($heightslist) && !empty($heightslist) && count($heightslist)>0){ foreach($heightslist as $height){ 
 												$selectedheight= "";
-												if($height->heightvalue==$userdetails->uppd_to_height){
+												if(isset($userdetails) && $height->heightvalue==$userdetails->uppd_to_height){
 													$selectedheight= "selected";
 												}
 											?>
@@ -912,7 +931,7 @@
 						<!-- Qualification Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input required type="text" name="uppd_qualification" id="uppd_qualification" value="<?php echo $userdetails->uppd_qualification; ?>" class="form-control animation rounded-2" placeholder="Qualification">
+									<input required type="text" name="uppd_qualification" id="uppd_qualification" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->uppd_qualification; ?>" class="form-control animation rounded-2" placeholder="Qualification">
 									<span id="error_uppd_qualification" style="color:red"></span>
 								</div>
 							</div>
@@ -924,7 +943,7 @@
 										<option value="select">Profession</option>										
 										<?php if(isset($professionslist) && !empty($professionslist) && count($professionslist)>0){ foreach($professionslist as $profession){ 
 											$psSelected = "";
-											if($profession->professiondisplayid==$userdetails->uppd_profession){
+											if(isset($userdetails) && $profession->professiondisplayid==$userdetails->uppd_profession){
 												$psSelected = "selected";
 											}															
 										?>
@@ -942,11 +961,11 @@
 											$vegSelect ="";
 											$nonvegSelect ="";
 											$eggSelect ="";
-											if($userdetails->uppd_eating_habits=='Vegetarian'){
+											if(isset($userdetails) && $userdetails->uppd_eating_habits=='Vegetarian'){
 												$vegSelect ="selected";
-											}else if($userdetails->uppd_eating_habits=='Non Vegetarian'){
+											}else if(isset($userdetails) && $userdetails->uppd_eating_habits=='Non Vegetarian'){
 												$nonvegSelect ="selected";
-											}else if($userdetails->uppd_eating_habits=='Egg'){
+											}else if(isset($userdetails) && $userdetails->uppd_eating_habits=='Egg'){
 												$eggSelect ="selected";
 											}
 										?>
@@ -964,7 +983,7 @@
 										<option value="">Area</option>
 										<?php if(isset($areaslist) && !empty($areaslist) && count($areaslist)>0){ foreach($areaslist as $area){ 
 											$aselected = "";
-											if($area->areadisplayid==$userdetails->uppd_stateid){
+											if(isset($userdetails) && $area->areadisplayid==$userdetails->uppd_stateid){
 												$aselected = "selected";
 											}
 										?>
@@ -977,7 +996,7 @@
 						<!-- Any Other Requirements Starts -->
 							<div class="col-sm-12">
 								<div class="form-group">
-									<textarea rows="4" class="form-control animation rounded-2" id="uppd_other_requirement" name="uppd_other_requirement" placeholder="Other requirement"><?php echo $userdetails->uppd_other_requirement; ?></textarea>
+									<textarea rows="4" class="form-control animation rounded-2" id="uppd_other_requirement" name="uppd_other_requirement" placeholder="Other requirement"><?php if(isset($userdetails) > 0 ) echo $userdetails->uppd_other_requirement; ?></textarea>
 								</div>
 							</div>
 							<!-- Any Other Requirements Ends -->							
@@ -985,14 +1004,14 @@
 							<?php 
 								$urd_profile_pic ="";
 								$requiredst ="required";
-								if($userdetails->urd_profile_pic!=""){
+								if(isset($userdetails) && $userdetails->urd_profile_pic!=""){
 									$urd_profile_pic = $userdetails->urd_profile_pic;
 									$requiredst ="";
 								}
 							?>
 							<?php
 								$mchecked ="";
-								if($userdetails->urd_profilepic_is_published==1){
+								if(isset($userdetails) && $userdetails->urd_profilepic_is_published==1){
 									$mchecked ="checked";
 								}												
 							?>

@@ -198,6 +198,16 @@
 			$this->data['maserviceslist'] = $this->Common_model->get_data_status_without_delete_records('ma_servicemaster','servicemasterstatus',1,'servicemasterid','DESC');
 			$this->front_view('aboutus');	
 		}
+		public function how()
+		{ 
+			$this->data['maserviceslist'] = $this->Common_model->get_data_status_without_delete_records('ma_servicemaster','servicemasterstatus',1,'servicemasterid','DESC');
+			$this->front_view('how');	
+		}
+		public function desclimer()
+		{
+			$this->data['maserviceslist'] = $this->Common_model->get_data_status_without_delete_records('ma_servicemaster','servicemasterstatus',1,'servicemasterid','DESC');
+			$this->front_view('desclimer');	
+		}
 		public function brideGroomListing()
 		{
 			$this->load->helper(array('common'));

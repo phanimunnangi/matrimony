@@ -566,7 +566,8 @@
 			
 			
 			if(isset($_POST['user_email']) && $_POST['user_email']!="" && isset($_POST['user_mobile']) && $_POST['user_mobile']!=""){
-				print_r($_POST);	die;
+				$_POST['user_id'] = $this->user_register();
+				//echo $user_id; die;
 				// echo "<pre>";print_r($_FILES);
 				// echo "<pre>";print_r($_POST);exit;
 				// ini_set('display_errors', 1);
@@ -667,7 +668,7 @@
 				}
 				$hideData['urd_communication_address'] = $urd_communication_address;				
 								
-				$masterData['user_gender'] = $_SESSION['userGender'];
+				$masterData['user_gender'] = $_POST['user_gender'];//$_SESSION['userGender'];
 				$user_isagree =0;
 				if(isset($_POST['user_isagree']) && $_POST['user_isagree']=="on"){
 					$user_isagree = 1;
@@ -1250,7 +1251,7 @@
 					$parnterarray['uppd_user_id'] = $insertid;
 					$deleted = $this->Common_model->delete_single_row('ma_user_partner_prefered_details',$insertid,'uppd_user_id');
 					$parnterinsertid = $this->Common_model->add('ma_user_partner_prefered_details',$parnterarray);
-					$this->session->set_flashdata('success_message', '"Profile added successfully","Success"');
+					$this->session->set_flashdata('success_message', '"Profile added successfully, Please verify your email and wait for Admin approval","Success"');
 					redirect(base_url().'editprofile?register_error=profilesuccess');
 				}else{
 					$this->session->set_flashdata('error_message', '"Please try some time again.","Failed!"');
@@ -1275,7 +1276,8 @@
 			//if(isset($_SESSION['user_registeredid']) && $_SESSION['user_registeredid']!=""){
 			//	$userRegisteredid = $_SESSION['user_registeredid'];
 				//if($userRegisteredid!=""){
-					$userinfo=$this->Common_model->getUserDetails('ma_users',$userRegisteredid,'user_registeredid',1,'user_status');
+					//$userinfo=$this->Common_model->getUserDetails('ma_users',$userRegisteredid,'user_registeredid',1,'user_status');
+					$this->data['page_title'] = '';							
 					if(isset($userinfo->user_id) && $userinfo->user_id!=""){
 						$this->data['userdetails'] = $userinfo;							
 						$this->front_view('editprofile');
@@ -1680,7 +1682,117 @@
 				}
 			}			
 		} 
-		
+		public function user_register(){			
+			if(isset($_POST['user_email']) && $_POST['user_email']!="" && isset($_POST['user_mobile']) && $_POST['user_mobile']!=""){				
+				$user_email = $_POST['user_email'];
+				$getUserData = $this->Common_model->get_single_data_column('ma_users',$user_email,'user_email','2','user_status');				
+				if(isset($getUserData->user_id) && $getUserData->user_id!=""){
+					$user_id = $getUserData->user_id;
+					$checked =0;
+					if(isset($_POST['user_id']) && $_POST['user_id']!=""){
+						$uid = $_POST['user_id'];
+						if($user_id==$uid){
+							$checked =1;
+						}
+					}
+					if($checked){
+						$user_mobile = $_POST['user_mobile'];
+						$getUserData = $this->Common_model->get_single_data_column('ma_users',$user_mobile,'user_mobile','2','user_status');
+						if(isset($getUserData->user_id) && $getUserData->user_id!=""){
+							$user_id = $getUserData->user_id;
+							$checked =0;
+							if(isset($_POST['user_id']) && $_POST['user_id']!=""){
+								$uid = $_POST['user_id'];
+								if($user_id==$uid){
+									$checked =1;
+								}
+							}
+							if($checked==0){
+								$this->session->set_flashdata('error_message', '"Entered mobile number is already with our records.","Failed!"');
+								//redirect(base_url().'?register_error=mobileissue');
+							}					
+						}
+					}else{
+						$this->session->set_flashdata('error_message', '"Entered email is already with our records.","Failed!"');
+						//redirect(base_url().'?register_error=emailissue');
+					}						
+				}else{
+					$user_mobile = $_POST['user_mobile'];
+					$getUserData = $this->Common_model->get_single_data_column('ma_users',$user_mobile,'user_mobile','2','user_status');
+					if(isset($getUserData->user_id) && $getUserData->user_id!=""){
+						$user_id = $getUserData->user_id;
+						$checked =0;
+						if(isset($_POST['user_id']) && $_POST['user_id']!=""){
+							$uid = $_POST['user_id'];
+							if($user_id==$uid){
+								$checked =1;
+							}
+						}
+						if($checked==0){
+							$this->session->set_flashdata('error_message', '"Entered mobile is already with our records.","Failed!"');
+							//redirect(base_url().'?register_error=mobileissue');
+						}					
+					}
+				}				
+				
+				// ma_users
+				$masterData = array();
+				$hideData = array();
+				$masterData['user_display_name'] = ucfirst($_POST['user_display_name']);
+				$masterData['user_email'] = $_POST['user_email'];
+				$masterData['user_mobile'] = $_POST['user_mobile'];
+				$hideData['urd_email'] = $_POST['user_email'];
+				$user_encrpted_password = "";
+				$user_encodeed_password = "";
+				// if(isset($_POST['user_encrpted_password']) && $_POST['user_encrpted_password']!=""){
+					$user_encrpted_passwordd = rand(10000,100000);//$_POST['user_encrpted_password'];
+					$user_encrpted_password  = md5($user_encrpted_passwordd);
+					$user_encodeed_password  = base64_encode($user_encrpted_passwordd);
+				// } 
+				$masterData['user_encrpted_password'] = $user_encrpted_password;
+				$masterData['user_encodeed_password'] = $user_encodeed_password;
+				$masterData['user_gender'] = $_POST['user_gender'];
+				$masterData['user_create_profile_for'] = $_POST['user_create_profile_for'];
+				$masterData['user_status'] = 3;
+				$masterData['user_updatedat'] = date('Y-m-d H:i:s');
+				$masterData['user_craetedat'] = date('Y-m-d H:i:s');
+				$hideData['urd_updatedat'] = date('Y-m-d H:i:s');
+				$hideData['urd_profile_pic'] = NULL;
+				// echo "<pre>";print_r($masterData);exit;
+				$insertid = $this->Common_model->add('ma_users',$masterData);
+				if($insertid){
+					// $getUserData = $this->Common_model->get_single_data_column('ma_users',$insertid,'user_id','3','user_status');
+					// echo "<pre>";print_r($getUserData);exit;
+					if($_POST['user_gender']=='female'){
+						$user_registeredid = 'B'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
+					}else{
+						$user_registeredid = 'G'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
+					}							
+					$unquineData = array(
+						'user_registeredid' => $user_registeredid,
+					);	
+					$uinsertid = $this->Common_model->update('ma_users',$unquineData,$insertid,'user_id');		
+					$this->load->helper(array('common'));
+					$toemail   = $_POST['user_email'];
+					$fromemail = GAMILACCOUNT;
+					$subject   = "Registration Confirmation";
+					$messgae   = "Your registration is successful waiting for site administration approval.";
+					$mailSentStatus = sendemailtoall($fromemail,$toemail,$subject,$messgae,$attachment="");
+					$successmessage = 0;
+					if($mailSentStatus==1){
+						$successmessage = 1;
+					}
+					return $insertid;
+					//redirect(base_url().'?register_error=successful');
+				}else{
+					$this->session->set_flashdata('error_message', '"Please try some time again.","Failed!"');
+					//redirect(base_url().'?register_error=notinserted');
+				}			
+			}else{
+				$this->session->set_flashdata('error_message', '"Required fields are required.","Failed!"');
+				//redirect(base_url().'?register_error=notinserted');
+			}
+		}
 		public function changepasswordsubmit(){
 			if(isset($_POST['homepage']) && $_POST['homepage']=="adminreset"){
 				if(isset($_POST['userid']) && $_POST['userid']!=""){
