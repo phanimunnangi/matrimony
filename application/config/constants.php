@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-define('SITEADMINEMIAL','sainath.chillapuram@gmail.com');
-define('GAMILACCOUNT','matrimonyappin@gmail.com');
-define('GMAILPASSWORD','Jaisairam99');
+define('SITEADMINEMIAL','theswayamvaram@gmail.com');
+define('GAMILACCOUNT','theswayamvaram@gmail.com');
+define('GMAILPASSWORD','reset@123');
 
 /*
 |--------------------------------------------------------------------------
