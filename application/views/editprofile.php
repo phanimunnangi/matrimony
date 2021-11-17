@@ -381,7 +381,7 @@
 							</div>
 						<!-- Marital Status Ends -->
 						<!-- Physical Disability Starts -->
-							<div class="col-md-6 col-sm-12">
+							<div class="col-md-6 col-sm-12 hidden">
 								<div class="form-group">
 									<select name="upi_physicaldisability" id="upi_physicaldisability" class="custom-select">
 										<option value="">Physicaldisability Status</option>
@@ -407,7 +407,7 @@
 								</div>
 							</div>
 						<!-- NRI Ends -->
-							<div class="col-md-6 col-sm-12">
+							<div class="col-md-6 col-sm-12 hidden">
 								<div class="form-group">
 									<select id="upi_will_to_marry_widow" name="upi_will_to_marry_widow" class="custom-select">
 										<option value="">Will to marry window</option>
@@ -425,7 +425,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12">
+							<div class="col-md-6 col-sm-12 hidden">
 								<div class="form-group">
 									<select id="upi_livingtogether" name="upi_livingtogether" class="custom-select">
 										<option value="">Living to gether</option>
@@ -443,7 +443,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12">
+							<div class="col-md-6 col-sm-12 hidden">
 								<div class="form-group">
 									<select id="upi_have_childerns" name="upi_have_childerns" class="custom-select">
 										<option value="">Have you childerns</option>
@@ -461,7 +461,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12">
+							<div class="col-md-6 col-sm-12 hidden">
 								<div class="form-group">
 									<select id="upi_noofchilderns" name="upi_noofchilderns" class="custom-select">
 										<option value="">Noof childerns</option>
@@ -1073,13 +1073,20 @@
 			<!-- Nested Row Ends -->
 			<!-- Declaration Starts -->
 				<div class="profile-form-declaration rounded-2 mt-lg-5 mb-5">
+					<span class="text-big-2">Do you wish to pay donation? : <input class="" name="payment_check" type="checkbox" id="payment_check"></span>
+					<div id="trans_box" style="display:none">
+						Please Pay Donation via Paytm/PhonePay/Gpay to Mobile Number 8008672640 Siva Sankar Munnangi and share transaction number in below box.
+						<input type="text" value="" placeholder="Please enter transaction number" class="form-control" name='transaction_number'>
+					</div>
+				</div>
+				<div class="profile-form-declaration rounded-2 mt-lg-5 mb-5">
 				<!-- Terms Starts -->
 					<div class="custom-control custom-checkbox">
 						<input class="" checked name="user_isagree" type="checkbox" id="user_isagree" required>
 							  <span class="text-big-2">  I declare that the particulars furnished above are true to the best of my knowledge and agree that our familiy responsibility to make enquiry about the other party before the alliance is settled.</span>
 					<!-- Submit Button Starts -->
 						<p class="mt-3" id="submit_btn">
-							<button type="submit" class="btn btn-main btn-style-2 text-weight-semi-bold text-big-2 animation rounded-2" onClick="editformvalidate();">Submit Form</button>
+							<button type="submit" class="btn btn-main btn-style-2 text-weight-semi-bold text-big-2 animation rounded-2" onClick="editformvalidate();"><?php if(isset($userdetails)) echo "Update Profile"; else echo "Register Profile";?></button>
 						</p>
 						<p class="mt-3" id="process_btn" style="display:none;">
 							<button type="button" class="btn btn-main btn-style-2 text-weight-semi-bold text-big-2 animation rounded-2">Process</button>
@@ -1225,4 +1232,11 @@
 			}
 		}
 	}
+	$('#payment_check').click(function(){
+		if($(this).prop('checked')){
+			$('#trans_box').show();
+		}else{
+			$('#trans_box').hide();
+		}
+	});
 </script>

@@ -1277,7 +1277,11 @@
 			//	$userRegisteredid = $_SESSION['user_registeredid'];
 				//if($userRegisteredid!=""){
 					//$userinfo=$this->Common_model->getUserDetails('ma_users',$userRegisteredid,'user_registeredid',1,'user_status');
-					$this->data['page_title'] = '';							
+					$this->data['page_title'] = '';
+					if(isset($_SESSION['user_registeredid']) && $_SESSION['user_registeredid']!=""){
+						$userRegisteredid = $_SESSION['user_registeredid'];
+						$userinfo=$this->Common_model->getUserDetails('ma_users',$userRegisteredid,'user_registeredid',1,'user_status');
+					}
 					if(isset($userinfo->user_id) && $userinfo->user_id!=""){
 						$this->data['userdetails'] = $userinfo;							
 						$this->front_view('editprofile');
@@ -1505,7 +1509,7 @@
 					$user_encrpted_password = "";
 					$user_encodeed_password = "";
 					// if(isset($_POST['user_encrpted_password']) && $_POST['user_encrpted_password']!=""){
-						$user_encrpted_passwordd = $_POST['user_encrpted_password'];
+						$user_encrpted_passwordd = rand(10000,99999);///$_POST['user_encrpted_password'];
 						$profile_password  = md5($user_encrpted_passwordd);
 						$user_encodeed_password  = base64_encode($user_encrpted_passwordd);
 					// } 
@@ -1665,7 +1669,7 @@
 						$toemail   = $_POST['user_email'];
 						$fromemail = GAMILACCOUNT;
 						$subject   = "Registration Confirmation";
-						$messgae   = "Your registration is successful waiting for site administration approval.";
+						$messgae   = "Your registration is successful waiting for site administration approval.</br>Username: ".$toemail."</br>Password: ".$user_encrpted_passwordd;
 						$mailSentStatus = sendemailtoall($fromemail,$toemail,$subject,$messgae,$attachment="");
 						$successmessage = 0;
 						if($mailSentStatus==1){
