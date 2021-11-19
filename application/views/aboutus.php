@@ -34,11 +34,14 @@
             <!-- Sidearea Ends -->
             <!-- Mainarea Starts -->
                 <div class="col-lg-9 col-md-8 col-sm-12 py-4 py-md-0">
-                    <h6 class="text-weight-medium font-italic mt-lg-2 mb-lg-3">Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dole magna aliqua.</h6>
-                    <p>Ut enim ad minim veniam quis nostrud exercitation. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dole magna aliqua.</p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                    <p>Ut enim ad minim veniam quis nostrud exercitation. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dole magna aliqua.</p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+				<h6 class="text-weight-medium font-italic mt-lg-2 mb-lg-3">About US </h6>
+				Our Telugu Brahmin Matrimony Information Centre (http://www.tbmic.org) is being successfully run by highly experienced MIC members (Matrimony Information Centre) from Telugu States
+				
+				<h6 class="text-weight-medium font-italic mt-lg-2 mb-lg-3">Our vision</h6>
+				We wish to centralized all the data from all local marriage information centres, brokers/ Bureaus, smith's under one roof. In this regard all the data will be centralized information . So that costumer will get more Options within the minimum economy.
+
+				<h6 class="text-weight-medium font-italic mt-lg-2 mb-lg-3">Our Goal</h6>
+				Parents look for a prospective match for their son/daughter from their own community through marriage brokers or common friends or relatives or astrologers. Due to the urbanization, reduced social contacts and nowadays generation started to move out for jobs to all over the world and it is not easy for parents in finding a suitable match for their children. In this regard we have established Matrimonial & Allied Services to Brahmin Community. we wish to serve people through our services in minimum economy.
                 </div>
             <!-- Mainarea Ends -->
             </div>
