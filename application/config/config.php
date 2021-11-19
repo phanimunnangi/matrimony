@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://brahmanamatrimony.siripromoters.com/';
+$config['base_url'] = 'https://www.tbmic.org/';
 
 /*
 |--------------------------------------------------------------------------
