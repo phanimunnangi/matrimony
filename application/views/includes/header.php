@@ -110,7 +110,7 @@
 					<?php }else{ ?>
 					<a href="<?php echo base_url(); ?>editprofile" class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Edit Profile</a>
 					<?php } }else{ ?>
-					<a href="<?php echo base_url(); ?>editprofile"   class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Register your profile</a>&nbsp;&nbsp;
+					<a href="<?php echo base_url(); ?>register"   class="btn btn-main btn-style-1 animation float-sm-right text-uppercase text-weight-bold text-small-2 rounded-2">Register your profile</a>&nbsp;&nbsp;
 				<?php } ?>
 			<!-- Button Ends -->
 			</div>
@@ -132,8 +132,8 @@
 					<ul class="nav navbar-nav text-uppercase">
 						<li class="nav-item <?php echo $homepage; ?>"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
 						<li class="nav-item <?php echo $aboutuspage; ?>"><a href="<?php echo base_url(); ?>aboutus" class="nav-link">About Us</a></li>
-						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>how" class="nav-link">How?</a></li>
-						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>desclimer" class="nav-link">Desclimer</a></li>
+						<!-- <li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>how" class="nav-link">How?</a></li> -->
+						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>disclimer" class="nav-link">Disclimer</a></li>
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>packages" class="nav-link">Payment Info</a></li>
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>services-info" class="nav-link">Register Your Business</a></li>
 						<li class="nav-item <?php echo $contactuspage; ?>"><a href="<?php echo base_url(); ?>contactus" class="nav-link">Contact Us</a></li>

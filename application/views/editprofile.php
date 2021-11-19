@@ -407,7 +407,7 @@
 								</div>
 							</div>
 						<!-- NRI Ends -->
-							<div class="col-md-6 col-sm-12 hidden">
+							<div class="col-md-6 col-sm-12 d-none">
 								<div class="form-group">
 									<select id="upi_will_to_marry_widow" name="upi_will_to_marry_widow" class="custom-select">
 										<option value="">Will to marry window</option>
@@ -425,7 +425,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12 hidden">
+							<div class="col-md-6 col-sm-12 d-none">
 								<div class="form-group">
 									<select id="upi_livingtogether" name="upi_livingtogether" class="custom-select">
 										<option value="">Living to gether</option>
@@ -443,7 +443,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12 hidden">
+							<div class="col-md-6 col-sm-12 d-none">
 								<div class="form-group">
 									<select id="upi_have_childerns" name="upi_have_childerns" class="custom-select">
 										<option value="">Have you childerns</option>
@@ -461,7 +461,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12 hidden">
+							<div class="col-md-6 col-sm-12 d-none">
 								<div class="form-group">
 									<select id="upi_noofchilderns" name="upi_noofchilderns" class="custom-select">
 										<option value="">Noof childerns</option>

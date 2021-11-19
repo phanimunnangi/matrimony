@@ -5,7 +5,7 @@
         <!-- Banner Image Ends -->
         <!-- Nested Container Starts -->
             <div class="container px-md-0 text-white text-center d-none d-md-block">
-                <h2 class="text-weight-semi-bold">Desclimer</h2>
+                <h2 class="text-weight-semi-bold">Disclimer</h2>
             </div>
         <!-- Nested Container Ends -->
 		</div>
@@ -34,7 +34,8 @@
             <!-- Sidearea Ends -->
             <!-- Mainarea Starts -->
                 <div class="col-lg-9 col-md-8 col-sm-12 py-4 py-md-0">
-                    <h6 class="text-weight-medium font-italic mt-lg-2 mb-lg-3">Loading Sooon.....</p>
+                    <h6 class="text-weight-medium font-italic mt-lg-2 mb-lg-3">Disclimer</h6>
+					<p>NB: This Telugu Brahmin Matrimony information centre  is not Responsible for any incorrectness of the information provided. Parents are Requested to Verify the information thoroughly and Satisfy before proceeding /Settling matches please.</p>
                 </div>
             <!-- Mainarea Ends -->
             </div>
