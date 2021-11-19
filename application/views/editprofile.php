@@ -381,7 +381,7 @@
 							</div>
 						<!-- Marital Status Ends -->
 						<!-- Physical Disability Starts -->
-							<div class="col-md-6 col-sm-12 hidden">
+							<div class="col-md-6 col-sm-12 d-none">
 								<div class="form-group">
 									<select name="upi_physicaldisability" id="upi_physicaldisability" class="custom-select">
 										<option value="">Physicaldisability Status</option>
