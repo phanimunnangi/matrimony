@@ -341,7 +341,7 @@
 							</div>
 						<!-- Complexion Ends -->
 						<!-- Marital Status Starts -->
-							<div class="col-md-6 col-sm-12">
+							<div class="col-md-6 col-sm-12"> 
 								<div class="form-group">
 									<select id="upi_maritalstatus" name="upi_maritalstatus" class="custom-select">
 										<option value="">Marital Status</option>
