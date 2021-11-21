@@ -39,7 +39,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>Brahmana Swayamvaram Vivaha Parichaya Vedika <?php echo $page_title; ?></title>
+		<title>Telugu Brahmin Matrimony Information Centre <?php echo $page_title; ?></title>
 		<!-- Bootstrap -->
 		<link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" rel="stylesheet">
