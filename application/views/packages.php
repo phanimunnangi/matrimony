@@ -20,13 +20,13 @@
 
 You can Pay The Amount of Rs .300/- Through </br>
 
-G Pay 		-  8008672640   Siva Sankar Munnangi </br>
-Phone Pay	 - 8008672640   Siva Sankar Munnangi</br>
+G Pay 		-  <b>8008672640</b>   Siva Sankar Munnangi </br>
+Phone Pay	 - <b>8008672640</b>   Siva Sankar Munnangi</br>
  </p>
 			
 			
 			
-			Please Pay Donation via Paytm or PhonePay or Gpay to Mobile Number : <b>8008672640</b> Siva sankar Munnangi and please share transaction details to same via whats app</div>
+			<span class="d-none">Please Pay Donation via Paytm or PhonePay or Gpay to Mobile Number : <b>8008672640</b> Siva sankar Munnangi and please share transaction details to same via whats app</span></div>
 		<!-- Nested Row Ends -->
 		</div>
 	<!-- Main Container Ends -->
