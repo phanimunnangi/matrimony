@@ -1,5 +1,5 @@
 <!-- Page Banner Starts -->
-		<div class="page-banner">
+		<div class="page-banner d-none">
         <!-- Banner Image Starts -->
             <img src="<?php echo base_url(); ?>assets/images/banners/page-banners/page-banner-img1.jpg" alt="Image" class="img-fluid">
         <!-- Banner Image Ends -->

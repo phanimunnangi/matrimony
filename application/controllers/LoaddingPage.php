@@ -203,7 +203,7 @@
 			$this->data['maserviceslist'] = $this->Common_model->get_data_status_without_delete_records('ma_servicemaster','servicemasterstatus',1,'servicemasterid','DESC');
 			$this->front_view('how');	
 		}
-		public function desclimer()
+		public function disclaimer()
 		{
 			$this->data['maserviceslist'] = $this->Common_model->get_data_status_without_delete_records('ma_servicemaster','servicemasterstatus',1,'servicemasterid','DESC');
 			$this->front_view('desclimer');	
@@ -539,8 +539,8 @@
 		}
 		public function packages()
 		{
-			$data = array();
-			$this->front_view('packages',$data);	
+			$this->data = array();
+			$this->front_view('packages');	
 		}
 		public function contactus()
 		{

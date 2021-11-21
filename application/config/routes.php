@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller']   = 'LoaddingPage';
 $route['aboutus']   = 'LoaddingPage/aboutus';
 $route['how']   = 'LoaddingPage/how';
-$route['disclimer']   = 'LoaddingPage/desclimer';
+$route['disclaimer']   = 'LoaddingPage/disclaimer';
 $route['communitydetails']   = 'LoaddingPage/communitydetails';
 $route['contactus']   = 'LoaddingPage/contactus';
 $route['services']   = 'LoaddingPage/servicesListing';

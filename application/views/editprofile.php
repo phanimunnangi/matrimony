@@ -341,7 +341,7 @@
 							</div>
 						<!-- Complexion Ends -->
 						<!-- Marital Status Starts -->
-							<div class="col-md-6 col-sm-12"> 
+							<div class="col-md-6 col-sm-12"> .
 								<div class="form-group">
 									<select id="upi_maritalstatus" name="upi_maritalstatus" class="custom-select">
 										<option value="">Marital Status</option>
@@ -1052,7 +1052,7 @@
 							</div>
 						<!-- Upload Ends -->
 						<!-- Are you Willing Starts -->
-							<div class="col-lg-12 col-sm-12">
+							<div class="col-lg-12 col-sm-12 d-none">
 								<div class="form-group pt-md-2 mt-md-3">
 									<div class="custom-control-inline">
 										<label class="text-weight-medium">
@@ -1073,10 +1073,15 @@
 			<!-- Nested Row Ends -->
 			<!-- Declaration Starts -->
 				<div class="profile-form-declaration rounded-2 mt-lg-5 mb-5">
-					<span class="text-big-2">Do you wish to pay donation? : <input class="" name="payment_check" type="checkbox" id="payment_check"></span>
-					<div id="trans_box" style="display:none">
-						Please Pay Donation via Paytm/PhonePay/Gpay to Mobile Number 8008672640 Siva Sankar Munnangi and share transaction number in below box.
-						<input type="text" value="" placeholder="Please enter transaction number" class="form-control" name='transaction_number'>
+					<span class="text-big-2">Do you wish to pay donation? : Yes&nbsp;&nbsp;
+					<input checked class="payment_check" name="payment_check" type="radio" id="payment_check" value="yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;&nbsp;
+					<input class="payment_check" name="payment_check" type="radio" id="payment_checkno" value="no"></span>
+					<div id="trans_box">
+						In order to search profiles You have to donate Rs. 300/- for portal maintenance  purpose. This will be valid for 12 Months<br>
+						G Pay&nbsp;&nbsp;-&nbsp;&nbsp;8008672640&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siva Sankar Munnangi <br>
+						Phone Pay&nbsp;&nbsp;-&nbsp;&nbsp;8008672640&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siva Sankar Munnangi<br>
+						<input type="text" value="" placeholder="Please enter transaction number" class="form-control" id="trans_number" name='transaction_number'>
+						<label id="payent_validation" class="error" for="transaction_number"></label>
 					</div>
 				</div>
 				<div class="profile-form-declaration rounded-2 mt-lg-5 mb-5">
@@ -1145,7 +1150,12 @@
 				} 
 			} 
 		} 
-		
+		if($('.payment_check').val() == 'yes' && $('#trans_number').val == '')
+		{
+			$("#payent_validation").html('Please share transaction number.');
+			return false;
+		}
+		$("#payent_validation").html('');
 		$("#edit_profile").submit();
 	}
 	function getAge(birth) {
@@ -1232,8 +1242,8 @@
 			}
 		}
 	}
-	$('#payment_check').click(function(){
-		if($(this).prop('checked')){
+	$('.payment_check').click(function(){
+		if($(this).val() == 'yes'){
 			$('#trans_box').show();
 		}else{
 			$('#trans_box').hide();

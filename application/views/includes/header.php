@@ -133,7 +133,7 @@
 						<li class="nav-item <?php echo $homepage; ?>"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
 						<li class="nav-item <?php echo $aboutuspage; ?>"><a href="<?php echo base_url(); ?>aboutus" class="nav-link">About Us</a></li>
 						<!-- <li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>how" class="nav-link">How?</a></li> -->
-						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>disclimer" class="nav-link">Disclimer</a></li>
+						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>disclaimer" class="nav-link">Disclaimer</a></li>
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>packages" class="nav-link">Payment Info</a></li>
 						<li class="nav-item <?php echo $packagespage; ?>"><a href="<?php echo base_url(); ?>services-info" class="nav-link">Register Your Business</a></li>
 						<li class="nav-item <?php echo $contactuspage; ?>"><a href="<?php echo base_url(); ?>contactus" class="nav-link">Contact Us</a></li>
