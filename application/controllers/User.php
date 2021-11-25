@@ -1780,7 +1780,9 @@
 					$toemail   = $_POST['user_email'];
 					$fromemail = GAMILACCOUNT;
 					$subject   = "Registration Confirmation";
-					$messgae   = "Your registration is successful waiting for site administration approval.";
+					$messgae   = "Your registration is successful waiting for site administration approval.<br>";
+					$messgae   .= "Email: ".$_POST['user_email'];
+					$messgae   .= "Password: ".$user_encrpted_passwordd;
 					$mailSentStatus = sendemailtoall($fromemail,$toemail,$subject,$messgae,$attachment="");
 					$successmessage = 0;
 					if($mailSentStatus==1){
