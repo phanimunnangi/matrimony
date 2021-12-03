@@ -173,7 +173,7 @@
 										</select>
 										<select required name="upi_dateofbirth_year" id="upi_dateofbirth_year" class="custom-select alt-1">
 											<?php $yearv = date('Y'); $laste20years = $yearv-19; 
-											for($i=1980;$i<=$laste20years;$i++) { 
+											for($i=1970;$i<=$laste20years;$i++) { 
 												$selected = ($i == $dobyear) ? 'selected' : '';
 											?>
 												<option <?php echo $selected; ?> value="<?php echo $i; ?>"><?php echo $i; ?></option>
@@ -931,7 +931,7 @@
 						<!-- Qualification Starts -->
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<input required type="text" name="uppd_qualification" id="uppd_qualification" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->uppd_qualification; ?>" class="form-control animation rounded-2" placeholder="Qualification">
+									<input type="text" name="uppd_qualification" id="uppd_qualification" value="<?php if(isset($userdetails) > 0 ) echo $userdetails->uppd_qualification; ?>" class="form-control animation rounded-2" placeholder="Qualification">
 									<span id="error_uppd_qualification" style="color:red"></span>
 								</div>
 							</div>
