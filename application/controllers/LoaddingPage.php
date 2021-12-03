@@ -665,12 +665,13 @@
 		}
 		public function emailChecking(){
 			$this->load->helper(array('common'));
-			$toemail   = 'dileepkumarkonda@gmail.com';
+			$toemail   = 'munnangi.phani@gmail.com';
 			$fromemail = GAMILACCOUNT;
 			$subject   = "Registration Confirmation";
 			$messgae   = "Your registration is successful waiting for site administration approval.";
 			$mailSentStatus = sendemailtoall($fromemail,$toemail,$subject,$messgae,$attachment="");
-			echo $mailSentStatus;exit; 
+			echo $mailSentStatus;
+			exit; 
 		}
 		public function communitydetails(){
 			if(isset($_GET['alphserach']) && $_GET['alphserach']!=""){

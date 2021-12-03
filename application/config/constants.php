@@ -1,8 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-define('SITEADMINEMIAL','theswayamvaram@gmail.com');
-define('GAMILACCOUNT','theswayamvaram@gmail.com');
+define('SITEADMINEMIAL','tbmicapts@gmail.com');
+define('GAMILACCOUNT','tbmicapts@gmail.com');
 define('GMAILPASSWORD','reset@123');
 
 /*
