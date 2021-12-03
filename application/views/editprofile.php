@@ -1022,8 +1022,7 @@
 							<div class="col-lg-9 col-sm-12">
 								<div class="form-group mt-md-3">
 									<div class="custom-file">
-										<input <?php echo $requiredst; ?> type="file" name="urd_profile_pic" class="custom-file-input" id="urd_profile_pic">
-										<label class="custom-file-label" for="customFile">Upload Photo</label>
+										<input <?php echo $requiredst; ?> type="file" name="urd_profile_pic" class="" id="urd_profile_pic"> 
 									</div>
 								</div>
 							</div>
