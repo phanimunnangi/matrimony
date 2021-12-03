@@ -1079,7 +1079,7 @@
 						In order to search profiles You have to donate Rs. 300/- for portal maintenance  purpose. This will be valid for 12 Months<br>
 						G Pay&nbsp;&nbsp;-&nbsp;&nbsp;8008672640&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siva Sankar Munnangi <br>
 						Phone Pay&nbsp;&nbsp;-&nbsp;&nbsp;8008672640&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siva Sankar Munnangi<br>
-						<input type="text" value="" placeholder="Please enter transaction number" class="form-control" id="trans_number" name='transaction_number'>
+						<input required type="text" value="" placeholder="Please enter transaction number" class="form-control" id="trans_number" name='transaction_number'>
 						<label id="payent_validation" class="error" for="transaction_number"></label>
 					</div>
 				</div>
@@ -1110,6 +1110,10 @@
 		$("#user_image_modal").modal('show');
 	}
 	function editformvalidate(){
+		if($('.payment_check').val() == 'yes' && $('#trans_number').val() == ''){
+			$("#payent_validation").html('Please share transaction number.');
+			return false;
+		}
 		$("#edit_profile").validate();
 		var ddyear  = $("#upi_dateofbirth_year").val();
 		var ddmonth = $("#upi_dateofbirth_month").val();
@@ -1149,11 +1153,7 @@
 				} 
 			} 
 		} 
-		if($('.payment_check').val() == 'yes' && $('#trans_number').val == '')
-		{
-			$("#payent_validation").html('Please share transaction number.');
-			return false;
-		}
+		
 		$("#payent_validation").html('');
 		$("#edit_profile").submit();
 	}
