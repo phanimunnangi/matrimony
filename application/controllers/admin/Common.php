@@ -1288,6 +1288,7 @@
 					$us_todate        = $_POST['us_todate'];
 					$us_paymentamount = $_POST['us_paymentamount'];
 					$us_paymentoptionn = $this->input->post('us_paymentoption');
+					$subscription = $this->input->post('subscription');
 					$us_paymentoption =0;
 					if($us_paymentoptionn=='on'){
 						$us_paymentoption =1;
@@ -1314,6 +1315,7 @@
 							'user_trailperiod_todate' => $us_todate,
 							//'user_payment_amount' => $us_paymentamount,
 							'user_tottrailperiod_days' => $user_tottrailperiod_days,
+							'plan' => $subscription,
 							'user_updatedat' => date('Y-m-d H:i:s')
 						);	
 						$uinsertid = $this->Common_model->update('ma_users',$unquineData,$user_id,'user_id');
@@ -1332,6 +1334,7 @@
 							'user_trailperiod_todate' => $us_todate,
 							//'user_payment_amount' => $us_paymentamount,
 							'user_tottrailperiod_days' => $user_tottrailperiod_days,
+							'plan' => $subscription,
 							'user_updatedat' => date('Y-m-d H:i:s')
 						);	
 						$uinsertid = $this->Common_model->update('ma_users',$unquineData,$user_id,'user_id');		
