@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3" style="padding-top: 45px">
                 <div class="ibox-content" style="background: #FFFFFF;">
-                    <img src="<?php echo base_url();?>admin_assets/img/logo.png" class="img-responsive" style="margin:0 auto;">
+                    <h3>Admin Login</h3>
 					<form name="loginSubmit" id="loginSubmit" method="POST" >
                         <hr>
                         <h2 class="font-bold text-center" style="color: #373774"><b>Admin Login</b></h2>

@@ -24,7 +24,7 @@
 					<li class="nav-header">
 						<div class="dropdown profile-element" >
 							<span>
-								<img alt="image" class="img-responsive" src="<?php echo base_url();?>admin_assets/img/logo.png"  style="margin: 0 auto;display: block;"/>
+								<h3>ADMIN Area</h3>
 							</span>
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<span class="clear text-center"> 

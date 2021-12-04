@@ -170,14 +170,15 @@
 						<span id="error_us_todate" class="error_alert"></span>
 					</div>
 					<div class="form-group">
-						<input type="checkbox" name="us_paymentoption" id="us_paymentoption" required><label for="register-password" class="control-label text-weight-semi-bold"> &nbsp; Payment option<span class="text-danger">*</span></label>						
-						<br/><span id="error_us_paymentoption" class="error_alert"></span>
-					</div>
-					<div class="form-group">
-						<label for="register-password" class="control-label text-weight-semi-bold">Payment Amount<span class="text-danger">*</span></label>
-						<input type="text" name="us_paymentamount" id="us_paymentamount" class="form-control animation rounded-2" placeholder="Payment amount" required>
-						<span id="error_us_paymentamount" class="error_alert"></span>
-					</div>
+						Subscription Plan<span class="text-danger">*</span></label>						
+						<br/>
+						<select name="subscription" id="subscription">
+							<option value="">Select Plan</option>
+							<option value="free">Free</option>
+							<option value="paid">Paid</option>
+						</select>
+						<span id="error_us_paymentoption" class="error_alert"></span>
+					</div> 
 					<input type="hidden" id="us_user_id" name="us_user_id" value="">
 					<input type="hidden" id="updatesubscribe" name="updatesubscribe" value="1">
 					<span id="form_submit_login">
@@ -260,7 +261,7 @@ $this->load->view('admin/includes/footer');
 			$("#error_us_todate").html("To date is required.");
 			flag = false;
 		}
-		if(us_paymentamount==""){
+		/* if(us_paymentamount==""){
 			$("#error_us_paymentamount").html("Payment amount is required.");
 			flag = false;
 		}
@@ -269,7 +270,13 @@ $this->load->view('admin/includes/footer');
 		}else{
 			$("#error_us_paymentoption").html("Payment option is required.");
 			flag = false;
-		}
+		} */ 
+		if($('select[name="subscription"] option:selected').val() != ''){
+		  $("#error_us_paymentoption").html("");
+		}else{
+			$("#error_us_paymentoption").html("Payment option is required.");
+			flag = false;
+		} 
 		if(flag == false){
 			return false;
 		}else{
