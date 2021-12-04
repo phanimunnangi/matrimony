@@ -48,8 +48,7 @@
 				<h3 class="hs-2 text-white text-weight-semi-bold">Discover Services We Provided</h3>
 			<!-- Section Title Ends -->
 			<!-- Excerpt Starts -->
-				<p class="mb-0">Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dole magna aliqua.</p>
-				<p>Ut enim ad minim veniam quis nostrud exercitation.</p>
+				<p class="mb-0">Matrimonial Services</p>
 			<!-- Excerpt Ends -->
 			<!-- Services List Starts -->
 				<ul class="list-unstyled row home-services-list mb-0">

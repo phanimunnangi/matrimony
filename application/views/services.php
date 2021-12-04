@@ -20,7 +20,6 @@
                     </div>
                 <!-- Categories Ends -->
                 <!-- Banner Starts -->
-                    <p><a href="#"><img src="<?php echo base_url(); ?>assets/images/banners/sbanner-img1.jpg" alt="Image" class="img-fluid"></a></p>
                 <!-- Banner Ends -->
                 </div>
             <!-- Sidearea Ends -->
@@ -37,7 +36,7 @@
 						<!-- Listing #1 Starts -->
 							<div class="box-3 rounded-2 d-md-flex w-100">
 							<!-- Image Starts -->
-								<p class="mb-md-0 w-50"><img src="<?php echo base_url(); ?>assets/images/business-listing/<?php echo $service->servicewebimage;?>" alt="Image" class="img-fluid"></p>
+								<p class="mb-md-0 w-50"><img src="<?php echo base_url(); ?>userservicepics/<?php echo $service->servicewebimage;?>" alt="Image" class="img-fluid"></p>
 							<!-- Image Ends -->
 							<!-- Details Starts -->
 									<?php //echo "<pre>"; print_r($service->servicename);?>
@@ -81,7 +80,7 @@
 					<nav class="d-flex justify-content-between" aria-label="Page navigation">
 						<?php echo $slinks; ?>
 						<?php if($totcnt!=0) { ?>
-						<p class="text-weight-medium text-big-2 pt-2 pb-0">1 - 24 of <?php echo $totcnt; ?> Results</p>
+						<!-- <p class="text-weight-medium text-big-2 pt-2 pb-0">1 - 24 of <?php echo $totcnt; ?> Results</p> -->
 						<?php } ?>
 					</nav>
 				<!-- Pagination Ends -->

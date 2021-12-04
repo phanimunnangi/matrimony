@@ -479,9 +479,11 @@
 			$this->data['maserviceslist'] = $this->Common_model->get_data_status_without_delete_records('ma_servicemaster','servicemasterstatus',1,'servicemasterid','DESC');
 			$page = $this->uri->segment(2);
 			$servicename = $this->uri->segment(2);
-			$serivceinfo = $this->Common_model->get_single_data('ma_servicemaster',"$page",'servicemasterseo')->servicemasterdisplayid;
+			$serivceinfo = $this->Common_model->get_single_data('ma_servicemaster',$page,'servicemasterseo');
+			//			->servicemasterdisplayid;
 			$servicemasterid = "";
 			$servicemastername = "";
+			//print_r($serivceinfo); die;
 			if(isset($serivceinfo->servicemasterdisplayid) && $serivceinfo->servicemasterdisplayid!=""){
 				$servicemastername = $serivceinfo->servicemastername;
 				$servicemasterid = $serivceinfo->servicemasterdisplayid;
