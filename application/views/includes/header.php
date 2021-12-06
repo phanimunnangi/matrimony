@@ -31,6 +31,9 @@
 	}else if($page=='contactus'){
 		$contactuspage ="active";
 	}
+	
+	if(!isset($page_title))
+		$page_title = '';
 ?>
 <!DOCTYPE html>
 <html lang="en">
