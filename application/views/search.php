@@ -1,3 +1,7 @@
+<?php $ses = $this->session->userdata();
+if(isset($ses['userId'])){
+ print_r($ses);
+?>
 <div class="container px-md-0">
 			<div class="profile-search rounded-5">
 			<!-- Title Starts -->
@@ -6,20 +10,13 @@
 			<!-- Form Starts -->
 				<form enctype="multipart/form-data" class="form-row align-items-center justify-content-lg-between" id="search_form" name="search_form">
 				<!-- Gender Starts -->
-					<div class="col-auto profile-search-col mr-md-3">
-						<h6 class="text-weight-normal">Gender</h6>
-						<select class="custom-select" id="gender_search" name="gender_search">
-							<option value="">Select</option>
-							<option value="male">Male</option>
-							<option value="female">Female</option>
-						</select>
-					</div>
+						
 				<!-- Gender Ends -->
 				<!-- Age Starts -->
 					<div class="col-auto profile-search-col">
 						<h6 class="text-weight-normal">Age</h6>
 						<select class="custom-select" id="from_search" name="from_search">
-							<?php for($i=18;$i<=50;$i++){ ?>
+							<?php for($i=$ses['userAge'];$i<=50;$i++){ ?>
 								<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 							<?php } ?>
 						</select>
@@ -31,7 +28,7 @@
 					<div class="col-auto profile-search-col">
 						<h6 class="text-weight-normal d-none d-sm-block">&nbsp;</h6>
 						<select class="custom-select" id="to_search" name="to_search">
-							<?php for($i=18;$i<=50;$i++){ ?>
+							<?php for($i=$ses['userAge'];$i<=50;$i++){ ?>
 								<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 							<?php } ?>
 						</select>
@@ -81,3 +78,4 @@
 			<!-- Form Ends -->
 			</div>
 		</div>
+<?php } ?>

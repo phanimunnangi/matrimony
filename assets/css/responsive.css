@@ -166,14 +166,7 @@
 
 /* Profile Search Styles Starts */
 
-	.profile-search::after {
-		content: "";
-		width: 239px;
-		height: 261px;
-		position: absolute;
-		right: 30px;
-		bottom: 0;	
-	}
+
 
 /* Home Intro Section Styles Starts */
 

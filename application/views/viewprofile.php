@@ -1,16 +1,4 @@
-<!-- Main Menu Ends -->
-	<!-- Page Banner Starts -->
-		<div class="page-banner">
-        <!-- Banner Image Starts -->
-            <img src="<?php echo base_url(); ?>assets/images/banners/page-banners/page-banner-img1.jpg" alt="Image" class="img-fluid">
-        <!-- Banner Image Ends -->
-        <!-- Nested Container Starts -->
-            <div class="container px-md-0 text-white text-center d-none d-md-block">
-                <h2 class="text-weight-semi-bold">View Profile</h2>
-            </div>
-        <!-- Nested Container Ends -->
-		</div>
-	<!-- Page Banner Ends -->
+<?php $ses = $this->session->userdata(); ?><!-- Main Menu Ends -->
 	<!-- Main Container Starts -->
 		<div class="main-container container px-md-0">
         <!-- Row Starts -->
@@ -81,19 +69,19 @@
                 <!-- Heading Ends -->
                 <!-- Details List Starts -->
                     <ul class="list-unstyled pt-3">
-					<?php if(isset($userinfo->urd_email_is_published) && $userinfo->urd_email_is_published==0){ ?>
+					<?php if(isset($ses['userPlan']) && $ses['userPlan']=='paid'){ ?>
                         <li class="row py-1"><strong class="col-5">Email :</strong> <span class="col-7"><?php if(isset($userinfo->urd_email) && $userinfo->urd_email!=""){ echo $userinfo->urd_email; }  ?></span></li>
 					<?php }else{ ?>
 						 <li class="row py-1"><strong class="col-5">Email :</strong> <span class="col-7"><a href="javascript:void(0);" onClick="verifyuser();">Click Here</a></span></li>
 					<?php } ?>
-					<?php if(isset($userinfo->urd_primarycontactnumber_is_published) && $userinfo->urd_primarycontactnumber_is_published==0){ ?>
+					<?php if(isset($ses['userPlan']) && $ses['userPlan']=='paid'){ ?>
                         <li class="row py-1"><strong class="col-5">Contact Numbers:</strong> <span class="col-7"><?php if(isset($userinfo->urd_primaryconactnumber) && $userinfo->urd_primaryconactnumber!=""){ echo ucfirst($userinfo->urd_primaryconactnumber); }  ?>, <?php if(isset($userinfo->urd_contactnumber) && $userinfo->urd_contactnumber!=""){ echo ucfirst($userinfo->urd_contactnumber); }  ?>, <?php if(isset($userinfo->urd_landlinenumber) && $userinfo->urd_landlinenumber!=""){ echo ucfirst($userinfo->urd_landlinenumber); }  ?> </span></li>
 					<?php }else{ ?>
 						 <li class="row py-1"><strong class="col-5">Contact Numbers:</strong> <span class="col-7"><a href="javascript:void(0);" onClick="verifyuser();">Click Here</a></span></li>
 					<?php } ?>                        
                        <li class="row py-1"><strong class="col-5">Native District :</strong> <span class="col-7"><?php if(isset($userinfo->urd_native_district) && $userinfo->urd_native_district!=""){ echo ucfirst($userinfo->urd_native_district); }  ?></span></li>
                         <li class="row py-1"><strong class="col-5">Residence Type: </strong> <span class="col-7"><?php if(isset($userinfo->urd_communication_resident_type) && $userinfo->urd_communication_resident_type!=""){ echo ucfirst($userinfo->urd_communication_resident_type); }  ?></span></li>
-						<?php if(isset($userinfo->urd_communication_address_is_published) && $userinfo->urd_communication_address_is_published==0){ ?>
+						<?php if(isset($ses['userPlan']) && $ses['userPlan']=='paid'){ ?>
 							<li class="row py-1"><strong class="col-5">Communication Address: </strong> <span class="col-7"><?php if(isset($userinfo->urd_communication_address) && $userinfo->urd_communication_address!=""){ echo ucfirst($userinfo->urd_communication_address); }  ?></span></li>
 						<?php }else{ ?>
 							<li class="row py-1"><strong class="col-5">Communication Address:</strong> <span class="col-7"><a href="javascript:void(0);" onClick="verifyuser();">Click Here</a></span></li>

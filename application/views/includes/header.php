@@ -148,3 +148,4 @@
 		<!-- Nested Container Ends -->
 		</nav>
 	<!-- Main Menu Ends -->
+	<?php $this->load->view('search');?>

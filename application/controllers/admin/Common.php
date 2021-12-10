@@ -1286,7 +1286,7 @@
 					
 					$us_fromdate      = $_POST['us_fromdate'];
 					$us_todate        = $_POST['us_todate'];
-					$us_paymentamount = $_POST['us_paymentamount'];
+					//$us_paymentamount = $_POST['us_paymentamount'];
 					$us_paymentoptionn = $this->input->post('us_paymentoption');
 					$subscription = $this->input->post('subscription');
 					$us_paymentoption =0;
@@ -1296,7 +1296,7 @@
 					$mAccess = array();
 					$mAccess['us_fromdate']      = $us_fromdate;
 					$mAccess['us_todate']        = $us_todate;
-					$mAccess['us_paymentamount'] = $us_paymentamount;
+					//$mAccess['us_paymentamount'] = $us_paymentamount;
 					$mAccess['us_paymentoption'] = $us_paymentoption;
 					$mAccess['us_user_id']       = $user_id;					
 					$mAccess['us_createdat']     = date('Y-m-d H:i:s');					

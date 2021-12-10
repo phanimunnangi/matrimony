@@ -446,16 +446,17 @@
 			}
 		}
 		public function searchProfiles(){
+			$ses = $this->session->userdata();
 			$this->load->helper(array('common'));
 			if(isset($_GET['registerid']) && $_GET['registerid']!=""){
 				$registerid   = $_GET['registerid'];
 				$serachresults = $this->Common_model->searchingprofiles($user_gender="",$uppd_from_age="",$uppd_to_age="",$uppd_professionname="",$upi_caste="",$per_page="",$start="",$registerid);
 				$this->data['serachedprofiles'] = $serachresults;
-			}else if(isset($_GET['gendersearch']) && $_GET['gendersearch']!=""){
+			}else if(isset($ses['userGender']) && $ses['userGender']!=""){
 				// ini_set('display_errors', 1);
 				// ini_set('display_startup_errors', 1);
 				// error_reporting(E_ALL);
-				$user_gender   = $_GET['gendersearch'];
+				$user_gender   = ($ses['userGender'] == 'male')?'female':'male';//$_GET['gendersearch'];
 				$uppd_from_age = $_GET['fromagesearch'];
 				$uppd_to_age   = $_GET['toagesearch'];
 				if(isset($_GET['professionsearch']) && $_GET['professionsearch']=="emptyprofession"){
@@ -2029,6 +2030,7 @@
 							$_SESSION['userName']    = $resultSet->profile_fullname;
 							$_SESSION['userEmail']   = $resultSet->profile_email;
 							$_SESSION['userMobile']  = $resultSet->profile_phone;
+							$_SESSION['userPlan']  	= '';
 							$_SESSION['userGender']  = '';
 							$_SESSION['loginwith']   = 'CommunityProtal';
 							echo json_encode(array('status'=>true,'output'=>'success'));exit;
@@ -2058,6 +2060,12 @@
 							$_SESSION['userEmail']   = $resultSet->user_email;
 							$_SESSION['userMobile']  = $resultSet->user_mobile;
 							$_SESSION['userGender']  = $resultSet->user_gender;
+							$_SESSION['userPlan']  	= $resultSet->plan;
+							// Save user date of birth
+							$age = $this->db->query("select TIMESTAMPDIFF(YEAR, upi_dateofbirth, CURDATE()) AS age FROM `ma_user_personal_info` WHERE `upi_user_id` = ".$resultSet->user_id)->row();
+							$_SESSION['userAge']  = $age->age;
+							
+							
 							echo json_encode(array('status'=>true,'output'=>'success'));exit;
 						}else{
 							echo json_encode(array('status'=>FALSE,'output'=>"loginfail"));exit; 
