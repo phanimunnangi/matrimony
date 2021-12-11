@@ -3,22 +3,14 @@
 		<!-- Carousel Inner Starts -->
 			<div class="carousel-inner">
 			<!-- Slide #1 Starts -->
-				<div class="carousel-item active">
-					<img src="<?php echo base_url(); ?>assets/images/slider/slide-img1.jpg" alt="Image" class="d-block w-100">
+		<?php  $s=0; foreach ($mabannerslist as $row){ ?>			
+			<div class="carousel-item <?php echo ($s == 0)?"active":''?>">
+					<img src="<?php echo base_url().'/bannerpics/'.$row->bannerwebimage;?>" alt="Image" class="d-block w-100">
 					<div class="carousel-caption d-none d-lg-block">
-        				<h2 class="text-weight-light">Brahmin Matrimony Services</h2>
+        				<h2 class="text-weight-light"><?php echo ucfirst($row->bannertitle); ?></h2>
 					</div>
 				</div>
-			<!-- Slide #1 Ends -->
-			<!-- Slide #2 Starts -->
-				<div class="carousel-item">
-					<img src="<?php echo base_url(); ?>assets/images/slider/slide-img2.jpg" alt="Image" class="d-block w-100">
-					<div class="carousel-caption d-none d-lg-block">
-						<h2 class="text-weight-semi-bold">Exclusively For Brahmins</h2>
-        				<h2 class="text-weight-light">Matrimony & Community Portal</h2>
-					</div>
-				</div>
-			<!-- Slide #2 Ends -->
+		<?php $s++; } ?>
 			</div>
 		<!-- Carousel Inner Ends -->
 		<!-- Controls Starts -->

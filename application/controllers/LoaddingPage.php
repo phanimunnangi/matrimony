@@ -191,6 +191,8 @@
 			$this->data['nrihomepageuserprofiles'] = $this->Common_model->homeshowuserslist('nri','featured');
 			$this->data['malehomepageuserprofiles'] = $this->Common_model->homeshowuserslist('male','featured');
 			$this->data['femalehomepageuserprofiles'] = $this->Common_model->homeshowuserslist('female','featured');
+			
+			$this->data['mabannerslist']=$this->Common_model->get_data_status('ma_banners','bannerstatus',2,'bannerid','DESC');
 			$this->front_view('index');	
 		}
 		public function aboutus()
