@@ -1,6 +1,5 @@
 <?php $ses = $this->session->userdata();
 if(isset($ses['userId'])){
- print_r($ses);
 ?>
 <div class="container px-md-0">
 			<div class="profile-search rounded-5">
@@ -16,7 +15,8 @@ if(isset($ses['userId'])){
 					<div class="col-auto profile-search-col">
 						<h6 class="text-weight-normal">Age</h6>
 						<select class="custom-select" id="from_search" name="from_search">
-							<?php for($i=$ses['userAge'];$i<=50;$i++){ ?>
+							<?php //$ses['userAge']
+								for($i=18;$i<=50;$i++){ ?>
 								<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 							<?php } ?>
 						</select>
@@ -28,7 +28,8 @@ if(isset($ses['userId'])){
 					<div class="col-auto profile-search-col">
 						<h6 class="text-weight-normal d-none d-sm-block">&nbsp;</h6>
 						<select class="custom-select" id="to_search" name="to_search">
-							<?php for($i=$ses['userAge'];$i<=50;$i++){ ?>
+							<?php //$ses['userAge']
+								for($i=18;$i<=50;$i++){ ?>
 								<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 							<?php } ?>
 						</select>
@@ -38,7 +39,7 @@ if(isset($ses['userId'])){
 					<div class="col-auto profile-search-col ml-md-3">
 						<h6 class="text-weight-normal">Professions</h6>
 						<select class="custom-select" id="profession_search" name="profession_search">
-							<option selected value="">Select</option>
+							<option selected value="">Any</option>
 							<?php if(isset($professionslist) && count($professionslist)>0) { foreach($professionslist as $professions){ ?>
 								<option value="<?php echo $professions->professiondisplayid; ?>"><?php echo ucfirst($professions->professionname); ?></option>
 							<?php } } ?>
@@ -49,7 +50,7 @@ if(isset($ses['userId'])){
 					<div class="col-auto profile-search-col ml-md-3">
 						<h6 class="text-weight-normal">Sub Castes</h6>
 						<select class="custom-select" id="caste_search" name="caste_search">
-							<option value="">Select </option>
+							<option value="">Any</option>
 							<?php if(isset($subcasteslist) && count($subcasteslist)>0) { foreach($subcasteslist as $subcaste){ ?>
 								<option value="<?php echo $subcaste->subcastedisplayid; ?>"><?php echo ucfirst($subcaste->subcastename); ?></option>
 							<?php } } ?>

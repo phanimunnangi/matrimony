@@ -382,7 +382,7 @@ function searchtoprofilesfun(){
 					$("#profile_id_search").focus();
 					$("#rvalidationPop").modal('show');
 				}else if(data.output=='profileidisvalid'){
-					window.location = base_url+"searchprofiles?gendersearch=male&fromagesearch="+from_search+"&toagesearch="+to_search+"&professionsearch="+profession_search+"&castesearch="+caste_search+"&registerid="+profile_id_search;
+					window.location = base_url+"searchprofiles?fromagesearch="+from_search+"&toagesearch="+to_search+"&professionsearch="+profession_search+"&castesearch="+caste_search+"&registerid="+profile_id_search;
 				}else{
 					window.location = base_url;
 				}			
@@ -405,7 +405,7 @@ function searchtoprofilesfun(){
 		if(flag==false){
 			return false;
 		}else{
-			window.location = base_url+"searchprofiles?gendersearch="+gender_search+"&fromagesearch="+from_search+"&toagesearch="+to_search+"&professionsearch="+profession_search+"&castesearch="+caste_search;
+			window.location = base_url+"searchprofiles?fromagesearch="+from_search+"&toagesearch="+to_search+"&professionsearch="+profession_search+"&castesearch="+caste_search;
 		}
 	}	
 }

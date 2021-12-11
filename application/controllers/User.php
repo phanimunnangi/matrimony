@@ -710,9 +710,9 @@
 					$insertid = $this->Common_model->add('ma_users',$masterData);
 					if($insertid){	
 						if($_POST['user_gender']=='female'){
-							$user_registeredid = 'B'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
+							$user_registeredid = 'TBMICB'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
 						}else{
-							$user_registeredid = 'G'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
+							$user_registeredid = 'TBMICG'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
 						}							
 						$unquineData = array(
 							'user_registeredid' => $user_registeredid,
@@ -1658,9 +1658,9 @@
 						// $getUserData = $this->Common_model->get_single_data_column('ma_users',$insertid,'user_id','3','user_status');
 						// echo "<pre>";print_r($getUserData);exit;
 						if($_POST['user_gender']=='female'){
-							$user_registeredid = 'B'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
+							$user_registeredid = 'TBMICB'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
 						}else{
-							$user_registeredid = 'G'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
+							$user_registeredid = 'TBMICG'.date('y').'10'.str_pad((int)$insertid, 2, "0", STR_PAD_LEFT);
 						}							
 						$unquineData = array(
 							'user_registeredid' => $user_registeredid,
