@@ -1057,7 +1057,7 @@
 				</div>
 			<!-- Nested Row Ends -->
 			<!-- Declaration Starts -->
-			<?php if(isset($ses['userPlan']) && $ses['userPlan'] == 'free'){ ?>
+			<?php if(!isset($ses['userPlan']) && $ses['userPlan'] != 'paid'){ ?>
 				<div class="profile-form-declaration rounded-2 mt-lg-5 mb-5">
 					<span class="text-big-2">Do you wish to pay donation? : Yes&nbsp;&nbsp;
 					<input checked class="payment_check" name="payment_check" type="radio" id="payment_check" value="yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;&nbsp;
