@@ -988,7 +988,8 @@
 							<!-- Upload Starts -->
 							<?php 
 								$urd_profile_pic ="";
-								$requiredst ="required";
+								//$requiredst ="required";
+								$requiredst ="";
 								if(isset($userdetails) && $userdetails->urd_profile_pic!=""){
 									$urd_profile_pic = $userdetails->urd_profile_pic;
 									$requiredst ="";
