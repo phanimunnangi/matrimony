@@ -3,22 +3,6 @@
 	color:red;
 }
 </style>
-<!-- Page Banner Starts -->
-		<div class="page-banner">
-        <!-- Banner Image Starts -->
-            <img src="<?php echo base_url(); ?>assets/images/banners/page-banners/page-banner-img1.jpg" alt="Image" class="img-fluid">
-        <!-- Banner Image Ends -->
-        <!-- Nested Container Starts -->
-            <div class="container px-md-0 text-white text-center d-none d-md-block" style="bottom:40%;">
-                <h2 class="text-weight-semi-bold">We bring people together.</h2>
-        		<h2 class="text-weight-light">Love unites them...</h2>
-            </div>
-        <!-- Nested Container Ends -->
-		</div>
-	<!-- Page Banner Ends -->
-	<!-- Profile Search Starts -->
-		<?php // $this->load->view('search');?>
-	<!-- Profile Search Ends -->
 	<!-- Main Container Starts -->
 		<?php $ses = $this->session->userdata(); ?>
 		<div class="main-container container px-md-0">
