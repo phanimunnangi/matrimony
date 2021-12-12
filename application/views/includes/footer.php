@@ -111,7 +111,7 @@
 						</p>
 					</span>
 				</form>
-				<h5 class="pt-3 text-color-black-1 text-weight-semi-bold text-center">Create new? <a href="javascript:void(0);" class="animation" onClick="registerationform();">Sign up?</a></h5>
+				<h5 class="pt-3 text-color-black-1 text-weight-semi-bold text-center">Create new? <a href="<?php echo base_url('register');?>" class="animation" >Sign up?</a></h5>
 				<h5 class="pt-3 text-color-black-1 text-weight-semi-bold text-center">Forgot your password? <a href="<?php echo base_url(); ?>forgotpassword" class="animation">Reset?</a></h5>
 			</div>
 		</div>
