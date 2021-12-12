@@ -1106,6 +1106,10 @@
 	<!-- Main Container Ends -->
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js" type="text/javascript"></script>
 <script>
+	$('.payment_check').click(function(){
+		if($(this).val() == 'no') $('#trans_number').removeAttr('required');
+		if($(this).val() == 'yes') $('#trans_number').addAttr('required');
+	});
 	function viewprofile(){
 		$("#user_image_modal").modal('show');
 	}
