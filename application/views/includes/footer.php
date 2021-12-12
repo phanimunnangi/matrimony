@@ -87,7 +87,7 @@
 						<input value='1' class="form-check-input" type="radio" id="loginthru1" name="loginthru">
 						<label class="form-check-label" for="disabledFieldsetCheck">Matrimony</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						<input class="form-check-input" type="radio" id="loginthru2" name="loginthru" value='2'>
-						<label class="form-check-label" for="disabledFieldsetCheck">Community Portal</label>
+						<label class="form-check-label" for="disabledFieldsetCheck">Business Services</label>
 					</div>
 					<div class="form-group">
 						<label for="register-email" class="control-label text-weight-semi-bold">Email Address/Mobile Number <span class="text-danger">*</span></label>
