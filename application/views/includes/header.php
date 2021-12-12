@@ -79,7 +79,13 @@
 				<p class="mb-2 mb-md-0 float-md-left">Register for Matrimony & Business Services</p>
 				<?php if(isset($_SESSION['user_registeredid']) && $_SESSION['user_registeredid']!=""){ ?>
 					<ul class="list-unstyled list-inline topbar-links mb-0 float-md-right text-md-right">
-						<?php if(isset($_SESSION['loginwith']) && $_SESSION['loginwith']=="CommunityProtal"){
+						
+						<?php $ses = $this->session->userdata();
+							if(isset($ses['userPlan'])){
+								echo "<li>You are <b>".$ses['userPlan']."</b> member.</li>";
+							}
+							?>
+		<?php if(isset($_SESSION['loginwith']) && $_SESSION['loginwith']=="CommunityProtal"){
 							if(isset($_SESSION['referalcode']) && $_SESSION['referalcode']!=""){ ?>
 							<li class="ml-md-4 list-inline-item">My Referal Code: <a href="javascript:void(0);" class="text-white"><?php echo $_SESSION['referalcode']; ?></a></li>
 						<?php  } }else{ ?>

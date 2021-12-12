@@ -20,11 +20,7 @@
 		<?php // $this->load->view('search');?>
 	<!-- Profile Search Ends -->
 	<!-- Main Container Starts -->
-		<?php $ses = $this->session->userdata();
-		if(isset($ses['userPlan'])){
-			echo "<h2>You are ".$ses['userPlan']." member.</h2>";
-		}
-		?>
+		<?php $ses = $this->session->userdata(); ?>
 		<div class="main-container container px-md-0">
 		<!-- Profile Form Starts -->
 			<form class="profile-form" method="POST" name="edit_profile" id="edit_profile" enctype="multipart/form-data" action="<?php echo base_url();?>User/saveuserprofiledata">
@@ -1076,7 +1072,7 @@
 				</div>
 			<!-- Nested Row Ends -->
 			<!-- Declaration Starts -->
-			<?php if(isset($ses['userPlan']) && $ses['userPlan'] == 'paid'){ ?>
+			<?php if(isset($ses['userPlan']) && $ses['userPlan'] == 'free'){ ?>
 				<div class="profile-form-declaration rounded-2 mt-lg-5 mb-5">
 					<span class="text-big-2">Do you wish to pay donation? : Yes&nbsp;&nbsp;
 					<input checked class="payment_check" name="payment_check" type="radio" id="payment_check" value="yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;&nbsp;
