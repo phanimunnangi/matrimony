@@ -68,24 +68,6 @@
 	<!-- Home Services Section Ends -->
 	<!-- Main Container Starts -->
 		<div class="main-container container px-md-0">
-		<!-- Banner Area Starts -->
-			<div class="row pt-5 text-center">
-			<!-- Banner #1 Starts -->
-				<div class="col-md-4 col-sm-12">
-					<p><a href="#"><img src="<?php echo base_url(); ?>assets/images/banners/home/banner-img1.jpg" alt="Banner" class="img-fluid"></a></p>
-				</div>
-			<!-- Banner #1 Ends -->
-			<!-- Banner #2 Starts -->
-				<div class="col-md-4 col-sm-12">
-					<p><a href="#"><img src="<?php echo base_url(); ?>assets/images/banners/home/banner-img2.jpg" alt="Banner" class="img-fluid"></a></p>
-				</div>
-			<!-- Banner #2 Ends -->
-			<!-- Banner #3 Starts -->
-				<div class="col-md-4 col-sm-12">
-					<p><a href="#"><img src="<?php echo base_url(); ?>assets/images/banners/home/banner-img1.jpg" alt="Banner" class="img-fluid"></a></p>
-				</div>
-			<!-- Banner #3 Ends -->
-			</div>
 		<!-- Banner Area Ends -->
 			<?php if(isset($successstoires) && count($successstoires)>0 && !empty($successstoires)){ ?>
 		<!-- Success Stories Section Starts -->

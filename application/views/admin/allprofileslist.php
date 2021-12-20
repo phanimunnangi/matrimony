@@ -108,7 +108,8 @@
 														<input value="Inactive" type="button" name="cat_actions" class="btn btn-danger btn-xs " onClick="check_actions('<?php echo $row->user_registeredid; ?>',1);">
 													<?php } ?>
 													<br/>
-													<?php if($row->user_is_featured==0) { ?>
+													<?php echo '<b><label>'.ucfirst($row->plan).'</label></b>'; ?>
+													<?php /* if($row->user_is_featured==0) { ?>
 														<b>Featured <input type="checkbox" id="chk_<?php echo $s; ?>" onClick="featuredoption('<?php echo $row->user_id; ?>',1);"></b>
 													<?php }else{ ?>
 														<b>Featured <input type="checkbox" checked onClick="featuredoption('<?php echo $row->user_id; ?>',0);"></b>
@@ -116,7 +117,7 @@
 													<br/>
 													<?php if($row->user_payment_status==1) { ?>
 													<b>Payment Status <i style="color:green;" class="fa fa-check" aria-hidden="true"></i></b>
-													<?php } ?>
+													<?php }*/ ?>
 												</td>
 												<td>
 													<a href="<?php echo base_url();?>admin/common/editprofile?user_id=<?=$row->user_registeredid;?>"><button type="button" class="btn btn-xs btn-success " value="<?=$row->user_registeredid?>"><i class="fa fa-edit"></i> Edit</button></a>

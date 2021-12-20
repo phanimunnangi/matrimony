@@ -343,7 +343,7 @@
 						'servicevaliditydays'  => $servicevaliditydays,
 						'servicecreatedat'  => date('Y-m-d H:i:s'),
 						'serviceupdatedat'  => date('Y-m-d H:i:s'),
-						'servicestatus'  => 3
+						'servicestatus'  => 1
 					);			
 					$insertid = $this->Common_model->add('ma_services',$communitydata);
 					if($insertid){	
